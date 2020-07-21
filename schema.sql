@@ -15,6 +15,20 @@
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
+DROP TABLE IF EXISTS `guilds`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `guilds` (
+  `guild_id` varchar(40) NOT NULL,
+  `prefix` varchar(10) NOT NULL DEFAULT '#',
+  `last_message_sent` varchar(45) DEFAULT NULL,
+  `last_user` varchar(40) DEFAULT NULL,
+  `channel` varchar(45) NOT NULL COMMENT '																																																																																																																																																																																																																																																																																																																																																																													',
+  PRIMARY KEY (`guild_id`),
+  UNIQUE KEY `guild_id_UNIQUE` (`guild_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
 --
 -- Table structure for table `daycare`
 --

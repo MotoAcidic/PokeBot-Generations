@@ -28,12 +28,7 @@ con.connect(function (err) {
 });
 
 /*****************************************************
- *             Bring Over Location Commands          *
- ****************************************************/
-const start = require('./commands/start.js'); 
-
-/*****************************************************
- *             Start Scanning Folders                *
+ *             Add new channel to DB                 *
  ****************************************************/
 
  client.on("ready", () => {
@@ -70,13 +65,13 @@ fs.readdir("./commands/", (err, files) => {
 });
 
 /****************************************************************************
- * Performs a database query.
- * 
- * @param {string} query The MySQL query to perform.
- * @param {any[]} variables The list of variables for the query string.
- * 
- * @returns {any[]} The query results.
- ****************************************************************************/
+* Performs a database query.
+* 
+* @param {string} query The MySQL query to perform.
+* @param {any[]} variables The list of variables for the query string.
+* 
+* @returns {any[]} The query results.
+****************************************************************************/
 async function doQuery(query, variables) {
     return new Promise(async function (resolve, reject) {
         await con.query(query, variables, function (err, rows) {
@@ -92,26 +87,5 @@ async function doQuery(query, variables) {
     });
 };
 
-/**
- * Checks if a user is in a transaction and prints that transaction
- * if they are.
- * 
- * @param {Message} message The Discord message sent from the user.
- * @param {string} commandWarning A string representing the command
- * the user is trying to run.
- * 
- * @returns {boolean} True if user is in transaction.
- */
-async function printTransactionIfTrue(message, commandWarning) {
-    let status = false;
-    let activeUserTransaction = isInTransaction(message.author.id);
-    if (activeUserTransaction != null) {
-        await sendMessage(message.channel, (message.author.username + " please finish " + activeUserTransaction + commandWarning));
-        status = true;
-    }
 
-    return new Promise(function (resolve) {
-        resolve(status);
-    });
-}
 client.login(config.bot.token);

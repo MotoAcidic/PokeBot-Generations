@@ -1,55 +1,59 @@
-const { MessageEmbed, splitMessage } = require("discord.js");
 const config = require('../config.js');
+const moment = require('moment');
 const mysql = require('mysql');
-const con = mysql.createConnection(config.database);
+const connection = mysql.createConnection(config.database);
 
-exports.run = (client, message, args) => {
+exports.run = (message) => {
     /****************************************************
-    *             Add new channel to DB                 *
+         Add / Update channel and user info in the DB                
     ****************************************************/
 
-    //Start the DB connection to write back the channels ID
-    con.beginTransaction(async function (err) {
-        if (err) { console.error(err); }
+    // Pull the discord values to write back to the db
+    var guild_id = message.guild.id;
+    var prefix = config.bot.prefix;
+    var last_message_sent = moment().format();
+    var last_user = message.author.id;
+    var channel = message.channel.id;
 
-        /** Only allow some commands if a user is evolving one of their Pokemon. */
-        //if (await checkIfUserIsEvolving(message, command, input)) return;
+    //Establish a new connection for the command 
+    connection.connect(console.log("Connected to MySQL Database in the Activate command."));
 
-        let wasTheChannelSet = true;
-        let rows = doQuery("SELECT * FROM guilds WHERE guild_id = ?", [message.guild.id]);
-        if (rows === null) {
-            wasTheChannelSet = false;
-            /* If guild doesn't exist in the database. */
-        } else if (rows.length === 0) {
-            let guild = {
-                guild_id: message.guild.id,
-                prefix: client.config.bot.prefix,
-                last_message_sent: moment().format(),
-                last_user: message.author.id,
-                channel: message.channel.id
+    // Set rows as the select statement values.
+    var rows = connection.query("SELECT * FROM guilds WHERE guild_id = ?", guild_id);
+
+
+     //Check if the rows value is 0 and move on
+     if (rows.length === 0) {
+
+        /* Insert guild into the database. */
+         connection.query("INSERT INTO guilds SET ?", guild_id, prefix, last_message_sent, last_user, channel);
+        
+            message.channel.send({
+                embed: {
+                    color: 0x2ecc71, title: "Reading Commands",
+                    fields: [{ name: "Reading Commands:", value: `I will now be reading commands from this channel. Type \`p.start\` to start your adventure!` }],
+                    timestamp: new Date(), footer: { text: "Current Time Status" }
+                }
+            });
+
+     } else if (rows.length != 0) {
+         connection.query("UPDATE guilds SET guilds.channel = ? WHERE guilds.guild_id = ?", guild_id, prefix, last_message_sent, last_user, channel);
+            message.channel.send({
+                embed: {
+                    color: 0x2ecc71, title: "Channel Changed ",
+                    fields: [{ name: "Channel Change:", value: 'You have just changed the channel where reponses will be posted.' }],
+                    timestamp: new Date(), footer: { text: "Current Time Status" }
+                }
+            });
+
+     }else {        
+                message.channel.send({
+                    embed: {
+                        color: 0x2ecc71, title: "Mysql Error",
+                        fields: [{ name: "Mysql Error:", value: 'Something has gone wrong please try again later.' }],
+                        timestamp: new Date(), footer: { text: "Current Time Status" }
+                    }
+                });
             }
-            /* Insert guild into the database. */
-            if (doQuery("INSERT INTO guilds SET ?", [guild])) {
-                wasTheChannelSet = await sendMessage(message.channel, `I will now be reading commands from this channel. Type \`!pb begin\` to start your adventure!`);
-            } else {
-                await sendMessage(message.channel, `Whoops, something went wrong! Please try again later.`);
-                wasTheChannelSet = false;
-            }
-            /* If guild is in the database. */
-        } else {
-            /* Update the channel that the bot will read from for the current guild. */
-            if (doQuery("UPDATE guilds SET guilds.channel = ? WHERE guilds.guild_id = ?", [message.channel.id, message.guild.id]) != null) {
-                wasTheChannelSet = await sendMessage(message.channel, `I will now be reading commands from this channel.`);
-            } else {
-                await sendMessage(message.channel, `Whoops, something went wrong! Please try again later.`);
-                wasTheChannelSet = false;
-            }
-        }
-
-        return new Promise(function (resolve) {
-            resolve(wasTheChannelSet);
-        });
-
-    }),
-
+    
 };

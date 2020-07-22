@@ -4,12 +4,13 @@ const Enmap = require("enmap");
 const config = require('./config.js');
 const client = new Discord.Client();
 const mysql = require('mysql');
-const con = mysql.createConnection(config.database);
+const connection = mysql.createConnection(config.database);
 
 // We also need to make sure we're attaching the config to the CLIENT so it's accessible everywhere!
 client.config = config;
 client.commands = new Enmap();
 global.globalClient = client;
+global.mysqlconnection = connection;
 
 client.on("ready", () => {
     console.log(`${client.user.username} has loaded correctly and is online!`);
@@ -23,17 +24,11 @@ client.on("error", console.error);
 /************************
 *   MySQL DB Connection *
 ************************/
-con.connect(function (err) {
-    if (err) {
-        console.log(err);
-        process.exit();
-    }
-    console.log("Connected to MySQL Database.");
-});
+mysqlconnection.connect(console.log("Initial connection to MySQL Database loaded correctly."));
 
-/**
- * Client Events
- */
+/****************
+  Client Events
+ ***************/
 fs.readdir("./events/", (err, files) => {
     if (err) return console.error(err);
     files.forEach(file => {

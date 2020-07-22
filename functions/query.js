@@ -1,6 +1,5 @@
-// Copyright 2020 Precision Electric Motor Sales
 
-module.exports = async (client, message) => {
+module.exports = {
 
  /****************************************************************************
  * Performs a database query.
@@ -10,9 +9,9 @@ module.exports = async (client, message) => {
  * 
  * @returns {any[]} The query results.
  ****************************************************************************/
-    async function doQuery(query, variables) {
+    doQuery: async function(query, variables) {
         return new Promise(async function (resolve, reject) {
-            await con.query(query, variables, function (err, rows) {
+            await global.con.query(query, variables, function (err, rows) {
                 if (err) {
                     con.rollback(function () {
                         console.error(err);
@@ -23,5 +22,5 @@ module.exports = async (client, message) => {
                 }
             });
         });
-    };
+    }
 };

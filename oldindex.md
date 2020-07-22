@@ -1,28 +1,25 @@
+// Copyright 2020 Precision Electric Motor Sales
+
 const fs = require('fs');
 const Discord = require('discord.js');
 const Enmap = require("enmap");
 const config = require('./config.js');
-const client = new Discord.Client();
 const mysql = require('mysql');
-const con = mysql.createConnection(config.database);
+const oak = require('oakdex-pokedex');
+const client = new Discord.Client();
 
-// We also need to make sure we're attaching the config to the CLIENT so it's accessible everywhere!
 client.config = config;
 client.commands = new Enmap();
+/*******************************************
+*  Set some globals to call in other files *
+*******************************************/
 global.globalClient = client;
-
-client.on("ready", () => {
-    console.log(`${client.user.username} has loaded correctly and is online!`);
-    client.user.setActivity(`PEMS | ${config.bot.prefix}`);
-
-});
-
-client.on("warn", (info) => console.log(info));
-client.on("error", console.error);
+global.con = mysql.createConnection(config.database);
 
 /************************
 *   MySQL DB Connection *
 ************************/
+
 con.connect(function (err) {
     if (err) {
         console.log(err);
@@ -30,6 +27,18 @@ con.connect(function (err) {
     }
     console.log("Connected to MySQL Database.");
 });
+
+
+
+ client.on("ready", () => {
+        client.user.setActivity(`Start | ${config.bot.prefix}`);
+
+        // Log to console the actual path we are starting to scan then start
+        // To scan that folder after.
+        console.log("PokeBot-Generations Bot Just Started!");
+
+        console.log(`${client.user.username} has loaded correctly and is online!`);
+ });
 
 /**
  * Client Events
@@ -42,7 +51,6 @@ fs.readdir("./events/", (err, files) => {
         client.on(eventName, event.bind(null, client));
     });
 });
-
 fs.readdir("./commands/", (err, files) => {
     if (err) return console.error(err);
     files.forEach(file => {
@@ -53,4 +61,6 @@ fs.readdir("./commands/", (err, files) => {
         client.commands.set(commandName, props);
     });
 });
+//console.log(global.globalHours);
+//console.log(global.globalDay);
 client.login(config.bot.token);

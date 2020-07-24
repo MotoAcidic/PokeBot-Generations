@@ -1,0 +1,290 @@
+{
+    "name": "Jolteon",
+    "national_id": 135,
+    "types": [
+        "Electric"
+    ],
+    "abilities": [
+        {
+            "name": "Volt Absorb"
+        },
+        {
+            "name": "Quick Feet",
+            "hidden": true
+        }
+    ],
+    "catch_rate": 45,
+    "gender_ratios": {
+        "male": 87.5,
+        "female": 12.5
+    },
+    "egg_groups": [
+        "Field"
+    ],
+    "hatch_time": [
+        9180,
+        9434
+    ],
+    "height_us": "2'07\"",
+    "height_eu": "0.8 m",
+    "weight_us": "54.0 lbs.",
+    "weight_eu": "24.5 kg",
+    "base_exp_yield": 184,
+    "leveling_rate": "Medium Fast",
+    "base_friendship": 70,
+    "ev_yield": {
+        "hp": 0,
+        "atk": 0,
+        "def": 0,
+        "sp_atk": 0,
+        "sp_def": 0,
+        "speed": 2
+    },
+    "base_stats": {
+        "hp": 65,
+        "atk": 65,
+        "def": 60,
+        "sp_atk": 110,
+        "sp_def": 95,
+        "speed": 130
+    },
+    "evolution_from": "Eevee",
+    "evolutions": [],
+    "species": "Lightning Pokémon",
+    "mega_evolves": false,
+    "pokedex_entry": "Jolteon's cells generate a low level of electricity. This power is amplified by the static electricity of its fur, enabling the Pokémon to drop thunderbolts. The bristling fur is made of electrically charged needles.",
+    "move_learnset": [
+        {
+            "move": "Helping Hand",
+            "level": 1
+        },
+        {
+            "move": "Tackle",
+            "level": 1
+        },
+        {
+            "move": "Tail Whip",
+            "level": 1
+        },
+        {
+            "move": "Thunder Shock",
+            "level": 1
+        },
+        {
+            "move": "Sand Attack",
+            "level": 5
+        },
+        {
+            "move": "Baby-Doll Eyes",
+            "level": 9
+        },
+        {
+            "move": "Quick Attack",
+            "level": 13
+        },
+        {
+            "move": "Double Kick",
+            "level": 17
+        },
+        {
+            "move": "Thunder Fang",
+            "level": 20
+        },
+        {
+            "move": "Pin Missile",
+            "level": 25
+        },
+        {
+            "move": "Agility",
+            "level": 29
+        },
+        {
+            "move": "Thunder Wave",
+            "level": 33
+        },
+        {
+            "move": "Discharge",
+            "level": 37
+        },
+        {
+            "move": "Last Resort",
+            "level": 41
+        },
+        {
+            "move": "Thunder",
+            "level": 45
+        },
+        {
+            "move": "Captivate",
+            "egg_move": true
+        },
+        {
+            "move": "Charm",
+            "egg_move": true
+        },
+        {
+            "move": "Covet",
+            "egg_move": true
+        },
+        {
+            "move": "Curse",
+            "egg_move": true
+        },
+        {
+            "move": "Detect",
+            "egg_move": true
+        },
+        {
+            "move": "Endure",
+            "egg_move": true
+        },
+        {
+            "move": "Fake Tears",
+            "egg_move": true
+        },
+        {
+            "move": "Flail",
+            "egg_move": true
+        },
+        {
+            "move": "Natural Gift",
+            "egg_move": true
+        },
+        {
+            "move": "Stored Power",
+            "egg_move": true
+        },
+        {
+            "move": "Synchronoise",
+            "egg_move": true
+        },
+        {
+            "move": "Tickle",
+            "egg_move": true
+        },
+        {
+            "move": "Wish",
+            "egg_move": true
+        },
+        {
+            "move": "Yawn",
+            "egg_move": true
+        },
+        {
+            "move": "Work Up",
+            "tm": "TM1"
+        },
+        {
+            "move": "Roar",
+            "tm": "TM5"
+        },
+        {
+            "move": "Toxic",
+            "tm": "TM6"
+        },
+        {
+            "move": "Hidden Power",
+            "tm": "TM10"
+        },
+        {
+            "move": "Sunny Day",
+            "tm": "TM11"
+        },
+        {
+            "move": "Hyper Beam",
+            "tm": "TM15"
+        },
+        {
+            "move": "Light Screen",
+            "tm": "TM16"
+        },
+        {
+            "move": "Protect",
+            "tm": "TM17"
+        },
+        {
+            "move": "Rain Dance",
+            "tm": "TM18"
+        },
+        {
+            "move": "Frustration",
+            "tm": "TM21"
+        },
+        {
+            "move": "Thunderbolt",
+            "tm": "TM24"
+        },
+        {
+            "move": "Thunder",
+            "tm": "TM25"
+        },
+        {
+            "move": "Return",
+            "tm": "TM27"
+        },
+        {
+            "move": "Shadow Ball",
+            "tm": "TM30"
+        },
+        {
+            "move": "Double Team",
+            "tm": "TM32"
+        },
+        {
+            "move": "Facade",
+            "tm": "TM42"
+        },
+        {
+            "move": "Rest",
+            "tm": "TM44"
+        },
+        {
+            "move": "Attract",
+            "tm": "TM45"
+        },
+        {
+            "move": "Round",
+            "tm": "TM48"
+        },
+        {
+            "move": "Echoed Voice",
+            "tm": "TM49"
+        },
+        {
+            "move": "Charge Beam",
+            "tm": "TM57"
+        },
+        {
+            "move": "Giga Impact",
+            "tm": "TM68"
+        },
+        {
+            "move": "Volt Switch",
+            "tm": "TM72"
+        },
+        {
+            "move": "Thunder Wave",
+            "tm": "TM73"
+        },
+        {
+            "move": "Swagger",
+            "tm": "TM87"
+        },
+        {
+            "move": "Sleep Talk",
+            "tm": "TM88"
+        },
+        {
+            "move": "Substitute",
+            "tm": "TM90"
+        },
+        {
+            "move": "Wild Charge",
+            "tm": "TM93"
+        },
+        {
+            "move": "Confide",
+            "tm": "TM100"
+        }
+    ]
+}

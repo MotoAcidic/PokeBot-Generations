@@ -1,0 +1,332 @@
+{
+    "name": "Haunter",
+    "national_id": 93,
+    "types": [
+        "Ghost",
+        "Poison"
+    ],
+    "abilities": [
+        {
+            "name": "Levitate"
+        }
+    ],
+    "catch_rate": 90,
+    "gender_ratios": {
+        "male": 50,
+        "female": 50
+    },
+    "egg_groups": [
+        "Amorphous"
+    ],
+    "hatch_time": [
+        5355,
+        5609
+    ],
+    "height_us": "5'03\"",
+    "height_eu": "1.6 m",
+    "weight_us": "0.2 lbs.",
+    "weight_eu": "0.1 kg",
+    "base_exp_yield": 142,
+    "leveling_rate": "Medium Slow",
+    "base_friendship": 70,
+    "ev_yield": {
+        "hp": 0,
+        "atk": 0,
+        "def": 0,
+        "sp_atk": 2,
+        "sp_def": 0,
+        "speed": 0
+    },
+    "base_stats": {
+        "hp": 45,
+        "atk": 50,
+        "def": 45,
+        "sp_atk": 115,
+        "sp_def": 55,
+        "speed": 95
+    },
+    "evolution_from": "Gastly",
+    "evolutions": [
+        {
+            "to": "Gengar",
+            "trade": true
+        }
+    ],
+    "species": "Gas Pokémon",
+    "mega_evolves": false,
+    "pokedex_entry": "Haunter is a dangerous Pokémon. If one beckons you while floating in darkness, you must never approach it. This Pokémon will try to lick you with its tongue and steal your life away.",
+    "move_learnset": [
+        {
+            "move": "Hypnosis",
+            "level": 1
+        },
+        {
+            "move": "Lick",
+            "level": 1
+        },
+        {
+            "move": "Shadow Punch",
+            "level": 1
+        },
+        {
+            "move": "Spite",
+            "level": 1
+        },
+        {
+            "move": "Spite",
+            "level": 5
+        },
+        {
+            "move": "Mean Look",
+            "level": 8
+        },
+        {
+            "move": "Curse",
+            "level": 12
+        },
+        {
+            "move": "Night Shade",
+            "level": 15
+        },
+        {
+            "move": "Confuse Ray",
+            "level": 19
+        },
+        {
+            "move": "Sucker Punch",
+            "level": 22
+        },
+        {
+            "move": "Payback",
+            "level": 28
+        },
+        {
+            "move": "Shadow Ball",
+            "level": 33
+        },
+        {
+            "move": "Dream Eater",
+            "level": 39
+        },
+        {
+            "move": "Dark Pulse",
+            "level": 44
+        },
+        {
+            "move": "Destiny Bond",
+            "level": 50
+        },
+        {
+            "move": "Hex",
+            "level": 55
+        },
+        {
+            "move": "Nightmare",
+            "level": 61
+        },
+        {
+            "move": "Astonish",
+            "egg_move": true
+        },
+        {
+            "move": "Clear Smog",
+            "egg_move": true
+        },
+        {
+            "move": "Disable",
+            "egg_move": true
+        },
+        {
+            "move": "Fire Punch",
+            "egg_move": true
+        },
+        {
+            "move": "Grudge",
+            "egg_move": true
+        },
+        {
+            "move": "Haze",
+            "egg_move": true
+        },
+        {
+            "move": "Ice Punch",
+            "egg_move": true
+        },
+        {
+            "move": "Perish Song",
+            "egg_move": true
+        },
+        {
+            "move": "Psywave",
+            "egg_move": true
+        },
+        {
+            "move": "Reflect Type",
+            "egg_move": true
+        },
+        {
+            "move": "Scary Face",
+            "egg_move": true
+        },
+        {
+            "move": "Smog",
+            "egg_move": true
+        },
+        {
+            "move": "Thunder Punch",
+            "egg_move": true
+        },
+        {
+            "move": "Toxic",
+            "tm": "TM6"
+        },
+        {
+            "move": "Venoshock",
+            "tm": "TM9"
+        },
+        {
+            "move": "Hidden Power",
+            "tm": "TM10"
+        },
+        {
+            "move": "Sunny Day",
+            "tm": "TM11"
+        },
+        {
+            "move": "Taunt",
+            "tm": "TM12"
+        },
+        {
+            "move": "Protect",
+            "tm": "TM17"
+        },
+        {
+            "move": "Rain Dance",
+            "tm": "TM18"
+        },
+        {
+            "move": "Frustration",
+            "tm": "TM21"
+        },
+        {
+            "move": "Thunderbolt",
+            "tm": "TM24"
+        },
+        {
+            "move": "Return",
+            "tm": "TM27"
+        },
+        {
+            "move": "Psychic",
+            "tm": "TM29"
+        },
+        {
+            "move": "Shadow Ball",
+            "tm": "TM30"
+        },
+        {
+            "move": "Double Team",
+            "tm": "TM32"
+        },
+        {
+            "move": "Sludge Bomb",
+            "tm": "TM36"
+        },
+        {
+            "move": "Torment",
+            "tm": "TM41"
+        },
+        {
+            "move": "Facade",
+            "tm": "TM42"
+        },
+        {
+            "move": "Rest",
+            "tm": "TM44"
+        },
+        {
+            "move": "Attract",
+            "tm": "TM45"
+        },
+        {
+            "move": "Thief",
+            "tm": "TM46"
+        },
+        {
+            "move": "Round",
+            "tm": "TM48"
+        },
+        {
+            "move": "Energy Ball",
+            "tm": "TM53"
+        },
+        {
+            "move": "Fling",
+            "tm": "TM56"
+        },
+        {
+            "move": "Will-O-Wisp",
+            "tm": "TM61"
+        },
+        {
+            "move": "Embargo",
+            "tm": "TM63"
+        },
+        {
+            "move": "Explosion",
+            "tm": "TM64"
+        },
+        {
+            "move": "Shadow Claw",
+            "tm": "TM65"
+        },
+        {
+            "move": "Payback",
+            "tm": "TM66"
+        },
+        {
+            "move": "Psych Up",
+            "tm": "TM77"
+        },
+        {
+            "move": "Infestation",
+            "tm": "TM83"
+        },
+        {
+            "move": "Poison Jab",
+            "tm": "TM84"
+        },
+        {
+            "move": "Dream Eater",
+            "tm": "TM85"
+        },
+        {
+            "move": "Swagger",
+            "tm": "TM87"
+        },
+        {
+            "move": "Sleep Talk",
+            "tm": "TM88"
+        },
+        {
+            "move": "Substitute",
+            "tm": "TM90"
+        },
+        {
+            "move": "Trick Room",
+            "tm": "TM92"
+        },
+        {
+            "move": "Dark Pulse",
+            "tm": "TM97"
+        },
+        {
+            "move": "Dazzling Gleam",
+            "tm": "TM99"
+        },
+        {
+            "move": "Confide",
+            "tm": "TM100"
+        }
+    ]
+}

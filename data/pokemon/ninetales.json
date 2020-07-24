@@ -1,0 +1,428 @@
+{
+    "name": "Ninetales",
+    "national_id": 38,
+    "types": [
+        "Fire"
+    ],
+    "items": [
+        {
+            "name": "Charcoal",
+            "chance": 5
+        }
+    ],
+    "abilities": [
+        {
+            "name": "Flash Fire"
+        },
+        {
+            "name": "Drought",
+            "hidden": true
+        }
+    ],
+    "catch_rate": 75,
+    "gender_ratios": {
+        "male": 25,
+        "female": 75
+    },
+    "egg_groups": [
+        "Field"
+    ],
+    "hatch_time": [
+        5355,
+        5609
+    ],
+    "height_us": "3'07\"",
+    "height_eu": "1.1 m",
+    "weight_us": "43.9 lbs.",
+    "weight_eu": "19.9 kg",
+    "base_exp_yield": 177,
+    "leveling_rate": "Medium Fast",
+    "base_friendship": 70,
+    "ev_yield": {
+        "hp": 0,
+        "atk": 0,
+        "def": 0,
+        "sp_atk": 0,
+        "sp_def": 1,
+        "speed": 1
+    },
+    "base_stats": {
+        "hp": 73,
+        "atk": 76,
+        "def": 75,
+        "sp_atk": 81,
+        "sp_def": 100,
+        "speed": 100
+    },
+    "evolution_from": "Vulpix",
+    "evolutions": [],
+    "species": "Fox Pokémon",
+    "mega_evolves": false,
+    "pokedex_entry": "Legend has it that Ninetales came into being when nine wizards possessing sacred powers merged into one. This Pokémon is highly intelligent—it can understand human speech.",
+    "move_learnset": [
+        {
+            "move": "Confuse Ray",
+            "level": 1,
+            "variations": [
+                "Ninetales"
+            ]
+        },
+        {
+            "move": "Flamethrower",
+            "level": 1,
+            "variations": [
+                "Ninetales"
+            ]
+        },
+        {
+            "move": "Imprison",
+            "level": 1,
+            "variations": [
+                "Ninetales"
+            ]
+        },
+        {
+            "move": "Nasty Plot",
+            "level": 1,
+            "variations": [
+                "Ninetales"
+            ]
+        },
+        {
+            "move": "Quick Attack",
+            "level": 1,
+            "variations": [
+                "Ninetales"
+            ]
+        },
+        {
+            "move": "Safeguard",
+            "level": 1,
+            "variations": [
+                "Ninetales"
+            ]
+        },
+        {
+            "move": "Captivate",
+            "egg_move": true,
+            "variations": [
+                "Ninetales"
+            ]
+        },
+        {
+            "move": "Disable",
+            "egg_move": true,
+            "variations": [
+                "Ninetales"
+            ]
+        },
+        {
+            "move": "Extrasensory",
+            "egg_move": true,
+            "variations": [
+                "Ninetales"
+            ]
+        },
+        {
+            "move": "Feint Attack",
+            "egg_move": true,
+            "variations": [
+                "Ninetales"
+            ]
+        },
+        {
+            "move": "Flail",
+            "egg_move": true,
+            "variations": [
+                "Ninetales"
+            ]
+        },
+        {
+            "move": "Flare Blitz",
+            "egg_move": true,
+            "variations": [
+                "Ninetales"
+            ]
+        },
+        {
+            "move": "Heat Wave",
+            "egg_move": true,
+            "variations": [
+                "Ninetales"
+            ]
+        },
+        {
+            "move": "Hex",
+            "egg_move": true,
+            "variations": [
+                "Ninetales"
+            ]
+        },
+        {
+            "move": "Howl",
+            "egg_move": true,
+            "variations": [
+                "Ninetales"
+            ]
+        },
+        {
+            "move": "Hypnosis",
+            "egg_move": true,
+            "variations": [
+                "Ninetales"
+            ]
+        },
+        {
+            "move": "Power Swap",
+            "egg_move": true,
+            "variations": [
+                "Ninetales"
+            ]
+        },
+        {
+            "move": "Secret Power",
+            "egg_move": true,
+            "variations": [
+                "Ninetales"
+            ]
+        },
+        {
+            "move": "Spite",
+            "egg_move": true,
+            "variations": [
+                "Ninetales"
+            ]
+        },
+        {
+            "move": "Tail Slap",
+            "egg_move": true,
+            "variations": [
+                "Ninetales"
+            ]
+        },
+        {
+            "move": "Psyshock",
+            "tm": "TM3",
+            "variations": [
+                "Ninetales"
+            ]
+        },
+        {
+            "move": "Calm Mind",
+            "tm": "TM4",
+            "variations": [
+                "Ninetales"
+            ]
+        },
+        {
+            "move": "Roar",
+            "tm": "TM5",
+            "variations": [
+                "Ninetales"
+            ]
+        },
+        {
+            "move": "Toxic",
+            "tm": "TM6",
+            "variations": [
+                "Ninetales"
+            ]
+        },
+        {
+            "move": "Hidden Power",
+            "tm": "TM10",
+            "variations": [
+                "Ninetales"
+            ]
+        },
+        {
+            "move": "Sunny Day",
+            "tm": "TM11",
+            "variations": [
+                "Ninetales"
+            ]
+        },
+        {
+            "move": "Hyper Beam",
+            "tm": "TM15",
+            "variations": [
+                "Ninetales"
+            ]
+        },
+        {
+            "move": "Protect",
+            "tm": "TM17",
+            "variations": [
+                "Ninetales"
+            ]
+        },
+        {
+            "move": "Safeguard",
+            "tm": "TM20",
+            "variations": [
+                "Ninetales"
+            ]
+        },
+        {
+            "move": "Frustration",
+            "tm": "TM21",
+            "variations": [
+                "Ninetales"
+            ]
+        },
+        {
+            "move": "Solar Beam",
+            "tm": "TM22",
+            "variations": [
+                "Ninetales"
+            ]
+        },
+        {
+            "move": "Return",
+            "tm": "TM27",
+            "variations": [
+                "Ninetales"
+            ]
+        },
+        {
+            "move": "Double Team",
+            "tm": "TM32",
+            "variations": [
+                "Ninetales"
+            ]
+        },
+        {
+            "move": "Flamethrower",
+            "tm": "TM35",
+            "variations": [
+                "Ninetales"
+            ]
+        },
+        {
+            "move": "Fire Blast",
+            "tm": "TM38",
+            "variations": [
+                "Ninetales"
+            ]
+        },
+        {
+            "move": "Facade",
+            "tm": "TM42",
+            "variations": [
+                "Ninetales"
+            ]
+        },
+        {
+            "move": "Flame Charge",
+            "tm": "TM43",
+            "variations": [
+                "Ninetales"
+            ]
+        },
+        {
+            "move": "Rest",
+            "tm": "TM44",
+            "variations": [
+                "Ninetales"
+            ]
+        },
+        {
+            "move": "Attract",
+            "tm": "TM45",
+            "variations": [
+                "Ninetales"
+            ]
+        },
+        {
+            "move": "Round",
+            "tm": "TM48",
+            "variations": [
+                "Ninetales"
+            ]
+        },
+        {
+            "move": "Overheat",
+            "tm": "TM50",
+            "variations": [
+                "Ninetales"
+            ]
+        },
+        {
+            "move": "Energy Ball",
+            "tm": "TM53",
+            "variations": [
+                "Ninetales"
+            ]
+        },
+        {
+            "move": "Will-O-Wisp",
+            "tm": "TM61",
+            "variations": [
+                "Ninetales"
+            ]
+        },
+        {
+            "move": "Payback",
+            "tm": "TM66",
+            "variations": [
+                "Ninetales"
+            ]
+        },
+        {
+            "move": "Giga Impact",
+            "tm": "TM68",
+            "variations": [
+                "Ninetales"
+            ]
+        },
+        {
+            "move": "Psych Up",
+            "tm": "TM77",
+            "variations": [
+                "Ninetales"
+            ]
+        },
+        {
+            "move": "Dream Eater",
+            "tm": "TM85",
+            "variations": [
+                "Ninetales"
+            ]
+        },
+        {
+            "move": "Swagger",
+            "tm": "TM87",
+            "variations": [
+                "Ninetales"
+            ]
+        },
+        {
+            "move": "Sleep Talk",
+            "tm": "TM88",
+            "variations": [
+                "Ninetales"
+            ]
+        },
+        {
+            "move": "Substitute",
+            "tm": "TM90",
+            "variations": [
+                "Ninetales"
+            ]
+        },
+        {
+            "move": "Dark Pulse",
+            "tm": "TM97",
+            "variations": [
+                "Ninetales"
+            ]
+        },
+        {
+            "move": "Confide",
+            "tm": "TM100",
+            "variations": [
+                "Ninetales"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,264 @@
+{
+    "name": "Goldeen",
+    "national_id": 118,
+    "types": [
+        "Water"
+    ],
+    "items": [
+        {
+            "name": "Mystic Water",
+            "chance": 5
+        }
+    ],
+    "abilities": [
+        {
+            "name": "Swift Swim"
+        },
+        {
+            "name": "Water Veil"
+        },
+        {
+            "name": "Lightning Rod",
+            "hidden": true
+        }
+    ],
+    "catch_rate": 225,
+    "gender_ratios": {
+        "male": 50,
+        "female": 50
+    },
+    "egg_groups": [
+        "Water 2"
+    ],
+    "hatch_time": [
+        5355,
+        5609
+    ],
+    "height_us": "2'00\"",
+    "height_eu": "0.6 m",
+    "weight_us": "33.1 lbs.",
+    "weight_eu": "15.0 kg",
+    "base_exp_yield": 64,
+    "leveling_rate": "Medium Fast",
+    "base_friendship": 70,
+    "ev_yield": {
+        "hp": 0,
+        "atk": 1,
+        "def": 0,
+        "sp_atk": 0,
+        "sp_def": 0,
+        "speed": 0
+    },
+    "base_stats": {
+        "hp": 45,
+        "atk": 67,
+        "def": 60,
+        "sp_atk": 35,
+        "sp_def": 50,
+        "speed": 63
+    },
+    "evolution_from": null,
+    "evolutions": [
+        {
+            "to": "Seaking",
+            "level": 33
+        }
+    ],
+    "species": "Goldfish Pokémon",
+    "mega_evolves": false,
+    "pokedex_entry": "Goldeen loves swimming wild and free in rivers and ponds. If one of these Pokémon is placed in an aquarium, it will shatter even the thickest glass with one ram of its horn and make its escape.",
+    "move_learnset": [
+        {
+            "move": "Peck",
+            "level": 1
+        },
+        {
+            "move": "Tail Whip",
+            "level": 1
+        },
+        {
+            "move": "Water Sport",
+            "level": 1
+        },
+        {
+            "move": "Supersonic",
+            "level": 5
+        },
+        {
+            "move": "Horn Attack",
+            "level": 8
+        },
+        {
+            "move": "Flail",
+            "level": 13
+        },
+        {
+            "move": "Water Pulse",
+            "level": 16
+        },
+        {
+            "move": "Aqua Ring",
+            "level": 21
+        },
+        {
+            "move": "Fury Attack",
+            "level": 24
+        },
+        {
+            "move": "Agility",
+            "level": 29
+        },
+        {
+            "move": "Waterfall",
+            "level": 32
+        },
+        {
+            "move": "Horn Drill",
+            "level": 37
+        },
+        {
+            "move": "Soak",
+            "level": 40
+        },
+        {
+            "move": "Megahorn",
+            "level": 45
+        },
+        {
+            "move": "Aqua Tail",
+            "egg_move": true
+        },
+        {
+            "move": "Body Slam",
+            "egg_move": true
+        },
+        {
+            "move": "Haze",
+            "egg_move": true
+        },
+        {
+            "move": "Hydro Pump",
+            "egg_move": true
+        },
+        {
+            "move": "Mud Shot",
+            "egg_move": true
+        },
+        {
+            "move": "Mud-Slap",
+            "egg_move": true
+        },
+        {
+            "move": "Mud Sport",
+            "egg_move": true
+        },
+        {
+            "move": "Psybeam",
+            "egg_move": true
+        },
+        {
+            "move": "Signal Beam",
+            "egg_move": true
+        },
+        {
+            "move": "Skull Bash",
+            "egg_move": true
+        },
+        {
+            "move": "Sleep Talk",
+            "egg_move": true
+        },
+        {
+            "move": "Toxic",
+            "tm": "TM6"
+        },
+        {
+            "move": "Hail",
+            "tm": "TM7"
+        },
+        {
+            "move": "Hidden Power",
+            "tm": "TM10"
+        },
+        {
+            "move": "Ice Beam",
+            "tm": "TM13"
+        },
+        {
+            "move": "Blizzard",
+            "tm": "TM14"
+        },
+        {
+            "move": "Protect",
+            "tm": "TM17"
+        },
+        {
+            "move": "Rain Dance",
+            "tm": "TM18"
+        },
+        {
+            "move": "Frustration",
+            "tm": "TM21"
+        },
+        {
+            "move": "Return",
+            "tm": "TM27"
+        },
+        {
+            "move": "Double Team",
+            "tm": "TM32"
+        },
+        {
+            "move": "Facade",
+            "tm": "TM42"
+        },
+        {
+            "move": "Rest",
+            "tm": "TM44"
+        },
+        {
+            "move": "Attract",
+            "tm": "TM45"
+        },
+        {
+            "move": "Round",
+            "tm": "TM48"
+        },
+        {
+            "move": "Scald",
+            "tm": "TM55"
+        },
+        {
+            "move": "Smart Strike",
+            "tm": "TM67"
+        },
+        {
+            "move": "Poison Jab",
+            "tm": "TM84"
+        },
+        {
+            "move": "Swagger",
+            "tm": "TM87"
+        },
+        {
+            "move": "Sleep Talk",
+            "tm": "TM88"
+        },
+        {
+            "move": "Substitute",
+            "tm": "TM90"
+        },
+        {
+            "move": "Surf",
+            "tm": "TM94"
+        },
+        {
+            "move": "Waterfall",
+            "tm": "TM98"
+        },
+        {
+            "move": "Confide",
+            "tm": "TM100"
+        }
+    ]
+}

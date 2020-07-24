@@ -1,0 +1,274 @@
+{
+    "name": "Oddish",
+    "national_id": 43,
+    "types": [
+        "Grass",
+        "Poison"
+    ],
+    "items": [
+        {
+            "name": "Absorb Bulb",
+            "chance": 5
+        }
+    ],
+    "abilities": [
+        {
+            "name": "Chlorophyll"
+        },
+        {
+            "name": "Run Away",
+            "hidden": true
+        }
+    ],
+    "catch_rate": 255,
+    "gender_ratios": {
+        "male": 50,
+        "female": 50
+    },
+    "egg_groups": [
+        "Grass"
+    ],
+    "hatch_time": [
+        5355,
+        5609
+    ],
+    "height_us": "1'08\"",
+    "height_eu": "0.5 m",
+    "weight_us": "11.9 lbs.",
+    "weight_eu": "5.4 kg",
+    "base_exp_yield": 64,
+    "leveling_rate": "Medium Slow",
+    "base_friendship": 70,
+    "ev_yield": {
+        "hp": 0,
+        "atk": 0,
+        "def": 0,
+        "sp_atk": 1,
+        "sp_def": 0,
+        "speed": 0
+    },
+    "base_stats": {
+        "hp": 45,
+        "atk": 50,
+        "def": 55,
+        "sp_atk": 75,
+        "sp_def": 65,
+        "speed": 30
+    },
+    "evolution_from": null,
+    "evolutions": [
+        {
+            "to": "Gloom",
+            "level": 21
+        }
+    ],
+    "species": "Weed Pokémon",
+    "mega_evolves": false,
+    "pokedex_entry": "Oddish searches for fertile, nutrient-rich soil, then plants itself. During the daytime, while it is planted, this Pokémon's feet are thought to change shape and become similar to the roots of trees..",
+    "move_learnset": [
+        {
+            "move": "Absorb",
+            "level": 1
+        },
+        {
+            "move": "Growth",
+            "level": 1
+        },
+        {
+            "move": "Sweet Scent",
+            "level": 5
+        },
+        {
+            "move": "Acid",
+            "level": 9
+        },
+        {
+            "move": "Poison Powder",
+            "level": 13
+        },
+        {
+            "move": "Stun Spore",
+            "level": 14
+        },
+        {
+            "move": "Sleep Powder",
+            "level": 15
+        },
+        {
+            "move": "Mega Drain",
+            "level": 19
+        },
+        {
+            "move": "Lucky Chant",
+            "level": 23
+        },
+        {
+            "move": "Moonlight",
+            "level": 27
+        },
+        {
+            "move": "Giga Drain",
+            "level": 31
+        },
+        {
+            "move": "Toxic",
+            "level": 35
+        },
+        {
+            "move": "Natural Gift",
+            "level": 39
+        },
+        {
+            "move": "Moonblast",
+            "level": 43
+        },
+        {
+            "move": "Grassy Terrain",
+            "level": 47
+        },
+        {
+            "move": "Petal Dance",
+            "level": 51
+        },
+        {
+            "move": "After You",
+            "egg_move": true
+        },
+        {
+            "move": "Charm",
+            "egg_move": true
+        },
+        {
+            "move": "Flail",
+            "egg_move": true
+        },
+        {
+            "move": "Ingrain",
+            "egg_move": true
+        },
+        {
+            "move": "Nature Power",
+            "egg_move": true
+        },
+        {
+            "move": "Razor Leaf",
+            "egg_move": true
+        },
+        {
+            "move": "Secret Power",
+            "egg_move": true
+        },
+        {
+            "move": "Strength Sap",
+            "egg_move": true
+        },
+        {
+            "move": "Synthesis",
+            "egg_move": true
+        },
+        {
+            "move": "Teeter Dance",
+            "egg_move": true
+        },
+        {
+            "move": "Tickle",
+            "egg_move": true
+        },
+        {
+            "move": "Toxic",
+            "tm": "TM6"
+        },
+        {
+            "move": "Venoshock",
+            "tm": "TM9"
+        },
+        {
+            "move": "Hidden Power",
+            "tm": "TM10"
+        },
+        {
+            "move": "Sunny Day",
+            "tm": "TM11"
+        },
+        {
+            "move": "Protect",
+            "tm": "TM17"
+        },
+        {
+            "move": "Frustration",
+            "tm": "TM21"
+        },
+        {
+            "move": "Solar Beam",
+            "tm": "TM22"
+        },
+        {
+            "move": "Return",
+            "tm": "TM27"
+        },
+        {
+            "move": "Double Team",
+            "tm": "TM32"
+        },
+        {
+            "move": "Sludge Bomb",
+            "tm": "TM36"
+        },
+        {
+            "move": "Facade",
+            "tm": "TM42"
+        },
+        {
+            "move": "Rest",
+            "tm": "TM44"
+        },
+        {
+            "move": "Attract",
+            "tm": "TM45"
+        },
+        {
+            "move": "Round",
+            "tm": "TM48"
+        },
+        {
+            "move": "Energy Ball",
+            "tm": "TM53"
+        },
+        {
+            "move": "Swords Dance",
+            "tm": "TM75"
+        },
+        {
+            "move": "Infestation",
+            "tm": "TM83"
+        },
+        {
+            "move": "Grass Knot",
+            "tm": "TM86"
+        },
+        {
+            "move": "Swagger",
+            "tm": "TM87"
+        },
+        {
+            "move": "Sleep Talk",
+            "tm": "TM88"
+        },
+        {
+            "move": "Substitute",
+            "tm": "TM90"
+        },
+        {
+            "move": "Nature Power",
+            "tm": "TM96"
+        },
+        {
+            "move": "Dazzling Gleam",
+            "tm": "TM99"
+        },
+        {
+            "move": "Confide",
+            "tm": "TM100"
+        }
+    ]
+}

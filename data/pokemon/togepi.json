@@ -1,0 +1,306 @@
+{
+    "name": "Togepi",
+    "national_id": 175,
+    "types": [
+        "Fairy"
+    ],
+    "abilities": [
+        {
+            "name": "Hustle"
+        },
+        {
+            "name": "Serene Grace"
+        },
+        {
+            "name": "Super Luck",
+            "hidden": true
+        }
+    ],
+    "catch_rate": 190,
+    "gender_ratios": {
+        "male": 87.5,
+        "female": 12.5
+    },
+    "egg_groups": [
+        "Undiscovered"
+    ],
+    "hatch_time": [
+        2805,
+        3059
+    ],
+    "height_us": "1'00\"",
+    "height_eu": "0.3 m",
+    "weight_us": "3.3 lbs.",
+    "weight_eu": "1.5 kg",
+    "base_exp_yield": 49,
+    "leveling_rate": "Fast",
+    "base_friendship": 70,
+    "ev_yield": {
+        "hp": 0,
+        "atk": 0,
+        "def": 0,
+        "sp_atk": 0,
+        "sp_def": 1,
+        "speed": 0
+    },
+    "base_stats": {
+        "hp": 35,
+        "atk": 20,
+        "def": 65,
+        "sp_atk": 40,
+        "sp_def": 65,
+        "speed": 20
+    },
+    "evolution_from": null,
+    "evolutions": [
+        {
+            "to": "Togetic",
+            "happiness": true
+        }
+    ],
+    "species": "Spike Ball Pokémon",
+    "mega_evolves": false,
+    "pokedex_entry": "As its energy, Togepi uses the positive emotions of compassion and pleasure exuded by people and Pokémon. This Pokémon then stores up feelings of happiness inside its shell, then shares them with others.",
+    "move_learnset": [
+        {
+            "move": "Charm",
+            "level": 1
+        },
+        {
+            "move": "Growl",
+            "level": 1
+        },
+        {
+            "move": "Metronome",
+            "level": 5
+        },
+        {
+            "move": "Sweet Kiss",
+            "level": 9
+        },
+        {
+            "move": "Yawn",
+            "level": 13
+        },
+        {
+            "move": "Encore",
+            "level": 17
+        },
+        {
+            "move": "Follow Me",
+            "level": 21
+        },
+        {
+            "move": "Bestow",
+            "level": 25
+        },
+        {
+            "move": "Wish",
+            "level": 29
+        },
+        {
+            "move": "Ancient Power",
+            "level": 33
+        },
+        {
+            "move": "Safeguard",
+            "level": 37
+        },
+        {
+            "move": "Baton Pass",
+            "level": 41
+        },
+        {
+            "move": "Double-Edge",
+            "level": 45
+        },
+        {
+            "move": "Last Resort",
+            "level": 49
+        },
+        {
+            "move": "After You",
+            "level": 53
+        },
+        {
+            "move": "Extrasensory",
+            "egg_move": true
+        },
+        {
+            "move": "Foresight",
+            "egg_move": true
+        },
+        {
+            "move": "Future Sight",
+            "egg_move": true
+        },
+        {
+            "move": "Lucky Chant",
+            "egg_move": true
+        },
+        {
+            "move": "Mirror Move",
+            "egg_move": true
+        },
+        {
+            "move": "Morning Sun",
+            "egg_move": true
+        },
+        {
+            "move": "Nasty Plot",
+            "egg_move": true
+        },
+        {
+            "move": "Peck",
+            "egg_move": true
+        },
+        {
+            "move": "Present",
+            "egg_move": true
+        },
+        {
+            "move": "Psycho Shift",
+            "egg_move": true
+        },
+        {
+            "move": "Secret Power",
+            "egg_move": true
+        },
+        {
+            "move": "Stored Power",
+            "egg_move": true
+        },
+        {
+            "move": "Work Up",
+            "tm": "TM1"
+        },
+        {
+            "move": "Psyshock",
+            "tm": "TM3"
+        },
+        {
+            "move": "Toxic",
+            "tm": "TM6"
+        },
+        {
+            "move": "Hidden Power",
+            "tm": "TM10"
+        },
+        {
+            "move": "Sunny Day",
+            "tm": "TM11"
+        },
+        {
+            "move": "Light Screen",
+            "tm": "TM16"
+        },
+        {
+            "move": "Protect",
+            "tm": "TM17"
+        },
+        {
+            "move": "Rain Dance",
+            "tm": "TM18"
+        },
+        {
+            "move": "Safeguard",
+            "tm": "TM20"
+        },
+        {
+            "move": "Frustration",
+            "tm": "TM21"
+        },
+        {
+            "move": "Solar Beam",
+            "tm": "TM22"
+        },
+        {
+            "move": "Return",
+            "tm": "TM27"
+        },
+        {
+            "move": "Psychic",
+            "tm": "TM29"
+        },
+        {
+            "move": "Shadow Ball",
+            "tm": "TM30"
+        },
+        {
+            "move": "Double Team",
+            "tm": "TM32"
+        },
+        {
+            "move": "Reflect",
+            "tm": "TM33"
+        },
+        {
+            "move": "Flamethrower",
+            "tm": "TM35"
+        },
+        {
+            "move": "Fire Blast",
+            "tm": "TM38"
+        },
+        {
+            "move": "Facade",
+            "tm": "TM42"
+        },
+        {
+            "move": "Rest",
+            "tm": "TM44"
+        },
+        {
+            "move": "Attract",
+            "tm": "TM45"
+        },
+        {
+            "move": "Round",
+            "tm": "TM48"
+        },
+        {
+            "move": "Echoed Voice",
+            "tm": "TM49"
+        },
+        {
+            "move": "Fling",
+            "tm": "TM56"
+        },
+        {
+            "move": "Thunder Wave",
+            "tm": "TM73"
+        },
+        {
+            "move": "Psych Up",
+            "tm": "TM77"
+        },
+        {
+            "move": "Dream Eater",
+            "tm": "TM85"
+        },
+        {
+            "move": "Grass Knot",
+            "tm": "TM86"
+        },
+        {
+            "move": "Swagger",
+            "tm": "TM87"
+        },
+        {
+            "move": "Sleep Talk",
+            "tm": "TM88"
+        },
+        {
+            "move": "Substitute",
+            "tm": "TM90"
+        },
+        {
+            "move": "Dazzling Gleam",
+            "tm": "TM99"
+        },
+        {
+            "move": "Confide",
+            "tm": "TM100"
+        }
+    ]
+}

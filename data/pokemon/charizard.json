@@ -1,0 +1,372 @@
+{
+    "name": "Charizard",
+    "national_id": 6,
+    "types": [
+        "Fire",
+        "Flying"
+    ],
+    "abilities": [
+        {
+            "name": "Blaze"
+        },
+        {
+            "name": "Solar Power",
+            "hidden": true
+        }
+    ],
+    "catch_rate": 45,
+    "gender_ratios": {
+        "male": 87.5,
+        "female": 12.5
+    },
+    "egg_groups": [
+        "Monster",
+        "Dragon"
+    ],
+    "hatch_time": [
+        5355,
+        5609
+    ],
+    "height_us": "5'07\"",
+    "height_eu": "1.7 m",
+    "weight_us": "199.5 lbs.",
+    "weight_eu": "90.5 kg",
+    "base_exp_yield": 240,
+    "leveling_rate": "Medium Slow",
+    "base_friendship": 70,
+    "ev_yield": {
+        "hp": 0,
+        "atk": 0,
+        "def": 0,
+        "sp_atk": 3,
+        "sp_def": 0,
+        "speed": 0
+    },
+    "base_stats": {
+        "hp": 78,
+        "atk": 84,
+        "def": 78,
+        "sp_atk": 109,
+        "sp_def": 85,
+        "speed": 100
+    },
+    "evolution_from": "Charmeleon",
+    "evolutions": [],
+    "species": "Flame Pokémon",
+    "mega_evolves": true,
+    "pokedex_entry": "Charizard flies around the sky in search of powerful opponents. It breathes fire of such great heat that it melts anything. However, it never turns its fiery breath on any opponent weaker than itself.",
+    "move_learnset": [
+        {
+            "move": "Air Slash",
+            "level": 1
+        },
+        {
+            "move": "Dragon Claw",
+            "level": 1
+        },
+        {
+            "move": "Ember",
+            "level": 1
+        },
+        {
+            "move": "Flare Blitz",
+            "level": 1
+        },
+        {
+            "move": "Growl",
+            "level": 1
+        },
+        {
+            "move": "Heat Wave",
+            "level": 1
+        },
+        {
+            "move": "Scratch",
+            "level": 1
+        },
+        {
+            "move": "Shadow Claw",
+            "level": 1
+        },
+        {
+            "move": "Wing Attack",
+            "level": 1
+        },
+        {
+            "move": "Ember",
+            "level": 7
+        },
+        {
+            "move": "Smokescreen",
+            "level": 10
+        },
+        {
+            "move": "Dragon Rage",
+            "level": 17
+        },
+        {
+            "move": "Scary Face",
+            "level": 21
+        },
+        {
+            "move": "Fire Fang",
+            "level": 28
+        },
+        {
+            "move": "Flame Burst",
+            "level": 32
+        },
+        {
+            "move": "Slash",
+            "level": 41
+        },
+        {
+            "move": "Flamethrower",
+            "level": 47
+        },
+        {
+            "move": "Fire Spin",
+            "level": 56
+        },
+        {
+            "move": "Inferno",
+            "level": 62
+        },
+        {
+            "move": "Heat Wave",
+            "level": 71
+        },
+        {
+            "move": "Flare Blitz",
+            "level": 77
+        },
+        {
+            "move": "Air Cutter",
+            "egg_move": true
+        },
+        {
+            "move": "Ancient Power",
+            "egg_move": true
+        },
+        {
+            "move": "Beat Up",
+            "egg_move": true
+        },
+        {
+            "move": "Belly Drum",
+            "egg_move": true
+        },
+        {
+            "move": "Bite",
+            "egg_move": true
+        },
+        {
+            "move": "Counter",
+            "egg_move": true
+        },
+        {
+            "move": "Crunch",
+            "egg_move": true
+        },
+        {
+            "move": "Dragon Dance",
+            "egg_move": true
+        },
+        {
+            "move": "Dragon Pulse",
+            "egg_move": true
+        },
+        {
+            "move": "Dragon Rush",
+            "egg_move": true
+        },
+        {
+            "move": "Flare Blitz",
+            "egg_move": true
+        },
+        {
+            "move": "Focus Punch",
+            "egg_move": true
+        },
+        {
+            "move": "Metal Claw",
+            "egg_move": true
+        },
+        {
+            "move": "Outrage",
+            "egg_move": true
+        },
+        {
+            "move": "Work Up",
+            "tm": "TM1"
+        },
+        {
+            "move": "Dragon Claw",
+            "tm": "TM2"
+        },
+        {
+            "move": "Roar",
+            "tm": "TM5"
+        },
+        {
+            "move": "Toxic",
+            "tm": "TM6"
+        },
+        {
+            "move": "Hidden Power",
+            "tm": "TM10"
+        },
+        {
+            "move": "Sunny Day",
+            "tm": "TM11"
+        },
+        {
+            "move": "Hyper Beam",
+            "tm": "TM15"
+        },
+        {
+            "move": "Protect",
+            "tm": "TM17"
+        },
+        {
+            "move": "Roost",
+            "tm": "TM19"
+        },
+        {
+            "move": "Frustration",
+            "tm": "TM21"
+        },
+        {
+            "move": "Solar Beam",
+            "tm": "TM22"
+        },
+        {
+            "move": "Earthquake",
+            "tm": "TM26"
+        },
+        {
+            "move": "Return",
+            "tm": "TM27"
+        },
+        {
+            "move": "Brick Break",
+            "tm": "TM31"
+        },
+        {
+            "move": "Double Team",
+            "tm": "TM32"
+        },
+        {
+            "move": "Flamethrower",
+            "tm": "TM35"
+        },
+        {
+            "move": "Fire Blast",
+            "tm": "TM38"
+        },
+        {
+            "move": "Rock Tomb",
+            "tm": "TM39"
+        },
+        {
+            "move": "Aerial Ace",
+            "tm": "TM40"
+        },
+        {
+            "move": "Facade",
+            "tm": "TM42"
+        },
+        {
+            "move": "Flame Charge",
+            "tm": "TM43"
+        },
+        {
+            "move": "Rest",
+            "tm": "TM44"
+        },
+        {
+            "move": "Attract",
+            "tm": "TM45"
+        },
+        {
+            "move": "Round",
+            "tm": "TM48"
+        },
+        {
+            "move": "Echoed Voice",
+            "tm": "TM49"
+        },
+        {
+            "move": "Overheat",
+            "tm": "TM50"
+        },
+        {
+            "move": "Steel Wing",
+            "tm": "TM51"
+        },
+        {
+            "move": "Focus Blast",
+            "tm": "TM52"
+        },
+        {
+            "move": "Fling",
+            "tm": "TM56"
+        },
+        {
+            "move": "Sky Drop",
+            "tm": "TM58"
+        },
+        {
+            "move": "Brutal Swing",
+            "tm": "TM59"
+        },
+        {
+            "move": "Will-O-Wisp",
+            "tm": "TM61"
+        },
+        {
+            "move": "Shadow Claw",
+            "tm": "TM65"
+        },
+        {
+            "move": "Giga Impact",
+            "tm": "TM68"
+        },
+        {
+            "move": "Swords Dance",
+            "tm": "TM75"
+        },
+        {
+            "move": "Fly",
+            "tm": "TM76"
+        },
+        {
+            "move": "Bulldoze",
+            "tm": "TM78"
+        },
+        {
+            "move": "Rock Slide",
+            "tm": "TM80"
+        },
+        {
+            "move": "Dragon Tail",
+            "tm": "TM82"
+        },
+        {
+            "move": "Swagger",
+            "tm": "TM87"
+        },
+        {
+            "move": "Sleep Talk",
+            "tm": "TM88"
+        },
+        {
+            "move": "Substitute",
+            "tm": "TM90"
+        },
+        {
+            "move": "Confide",
+            "tm": "TM100"
+        }
+    ]
+}

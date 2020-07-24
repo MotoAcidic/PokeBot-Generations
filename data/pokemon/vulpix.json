@@ -1,0 +1,489 @@
+{
+    "name": "Vulpix",
+    "national_id": 37,
+    "types": [
+        "Fire"
+    ],
+    "items": [
+        {
+            "name": "Charcoal",
+            "chance": 5
+        }
+    ],
+    "abilities": [
+        {
+            "name": "Flash Fire"
+        },
+        {
+            "name": "Drought",
+            "hidden": true
+        }
+    ],
+    "catch_rate": 190,
+    "gender_ratios": {
+        "male": 25,
+        "female": 75
+    },
+    "egg_groups": [
+        "Field"
+    ],
+    "hatch_time": [
+        5355,
+        5609
+    ],
+    "height_us": "2'00\"",
+    "height_eu": "0.6 m",
+    "weight_us": "21.8 lbs.",
+    "weight_eu": "9.9 kg",
+    "base_exp_yield": 60,
+    "leveling_rate": "Medium Fast",
+    "base_friendship": 70,
+    "ev_yield": {
+        "hp": 0,
+        "atk": 0,
+        "def": 0,
+        "sp_atk": 0,
+        "sp_def": 0,
+        "speed": 1
+    },
+    "base_stats": {
+        "hp": 38,
+        "atk": 41,
+        "def": 40,
+        "sp_atk": 50,
+        "sp_def": 65,
+        "speed": 65
+    },
+    "evolution_from": null,
+    "evolutions": [
+        {
+            "to": "Ninetales",
+            "item": "Fire Stone"
+        }
+    ],
+    "species": "Fox Pokémon",
+    "mega_evolves": false,
+    "pokedex_entry": "Inside Vulpix's body burns a flame that never goes out. During the daytime, when the temperatures rise, this Pokémon releases flames from its mouth to prevent its body from growing too hot.",
+    "move_learnset": [
+        {
+            "move": "Ember",
+            "level": 1,
+            "variations": [
+                "Vulpix"
+            ]
+        },
+        {
+            "move": "Tail Whip",
+            "level": 4,
+            "variations": [
+                "Vulpix"
+            ]
+        },
+        {
+            "move": "Roar",
+            "level": 7,
+            "variations": [
+                "Vulpix"
+            ]
+        },
+        {
+            "move": "Baby-Doll Eyes",
+            "level": 9,
+            "variations": [
+                "Vulpix"
+            ]
+        },
+        {
+            "move": "Quick Attack",
+            "level": 10,
+            "variations": [
+                "Vulpix"
+            ]
+        },
+        {
+            "move": "Confuse Ray",
+            "level": 12,
+            "variations": [
+                "Vulpix"
+            ]
+        },
+        {
+            "move": "Fire Spin",
+            "level": 15,
+            "variations": [
+                "Vulpix"
+            ]
+        },
+        {
+            "move": "Payback",
+            "level": 18,
+            "variations": [
+                "Vulpix"
+            ]
+        },
+        {
+            "move": "Will-O-Wisp",
+            "level": 20,
+            "variations": [
+                "Vulpix"
+            ]
+        },
+        {
+            "move": "Feint Attack",
+            "level": 23,
+            "variations": [
+                "Vulpix"
+            ]
+        },
+        {
+            "move": "Hex",
+            "level": 26,
+            "variations": [
+                "Vulpix"
+            ]
+        },
+        {
+            "move": "Flame Burst",
+            "level": 28,
+            "variations": [
+                "Vulpix"
+            ]
+        },
+        {
+            "move": "Extrasensory",
+            "level": 31,
+            "variations": [
+                "Vulpix"
+            ]
+        },
+        {
+            "move": "Safeguard",
+            "level": 34,
+            "variations": [
+                "Vulpix"
+            ]
+        },
+        {
+            "move": "Flamethrower",
+            "level": 36,
+            "variations": [
+                "Vulpix"
+            ]
+        },
+        {
+            "move": "Imprison",
+            "level": 39,
+            "variations": [
+                "Vulpix"
+            ]
+        },
+        {
+            "move": "Fire Blast",
+            "level": 42,
+            "variations": [
+                "Vulpix"
+            ]
+        },
+        {
+            "move": "Grudge",
+            "level": 44,
+            "variations": [
+                "Vulpix"
+            ]
+        },
+        {
+            "move": "Captivate",
+            "level": 47,
+            "variations": [
+                "Vulpix"
+            ]
+        },
+        {
+            "move": "Inferno",
+            "level": 50,
+            "variations": [
+                "Vulpix"
+            ]
+        },
+        {
+            "move": "Captivate",
+            "egg_move": true,
+            "variations": [
+                "Vulpix"
+            ]
+        },
+        {
+            "move": "Disable",
+            "egg_move": true,
+            "variations": [
+                "Vulpix"
+            ]
+        },
+        {
+            "move": "Extrasensory",
+            "egg_move": true,
+            "variations": [
+                "Vulpix"
+            ]
+        },
+        {
+            "move": "Feint Attack",
+            "egg_move": true,
+            "variations": [
+                "Vulpix"
+            ]
+        },
+        {
+            "move": "Flail",
+            "egg_move": true,
+            "variations": [
+                "Vulpix"
+            ]
+        },
+        {
+            "move": "Flare Blitz",
+            "egg_move": true,
+            "variations": [
+                "Vulpix"
+            ]
+        },
+        {
+            "move": "Heat Wave",
+            "egg_move": true,
+            "variations": [
+                "Vulpix"
+            ]
+        },
+        {
+            "move": "Hex",
+            "egg_move": true,
+            "variations": [
+                "Vulpix"
+            ]
+        },
+        {
+            "move": "Howl",
+            "egg_move": true,
+            "variations": [
+                "Vulpix"
+            ]
+        },
+        {
+            "move": "Hypnosis",
+            "egg_move": true,
+            "variations": [
+                "Vulpix"
+            ]
+        },
+        {
+            "move": "Power Swap",
+            "egg_move": true,
+            "variations": [
+                "Vulpix"
+            ]
+        },
+        {
+            "move": "Secret Power",
+            "egg_move": true,
+            "variations": [
+                "Vulpix"
+            ]
+        },
+        {
+            "move": "Spite",
+            "egg_move": true,
+            "variations": [
+                "Vulpix"
+            ]
+        },
+        {
+            "move": "Tail Slap",
+            "egg_move": true,
+            "variations": [
+                "Vulpix"
+            ]
+        },
+        {
+            "move": "Roar",
+            "tm": "TM5",
+            "variations": [
+                "Vulpix"
+            ]
+        },
+        {
+            "move": "Toxic",
+            "tm": "TM6",
+            "variations": [
+                "Vulpix"
+            ]
+        },
+        {
+            "move": "Hidden Power",
+            "tm": "TM10",
+            "variations": [
+                "Vulpix"
+            ]
+        },
+        {
+            "move": "Sunny Day",
+            "tm": "TM11",
+            "variations": [
+                "Vulpix"
+            ]
+        },
+        {
+            "move": "Protect",
+            "tm": "TM17",
+            "variations": [
+                "Vulpix"
+            ]
+        },
+        {
+            "move": "Safeguard",
+            "tm": "TM20",
+            "variations": [
+                "Vulpix"
+            ]
+        },
+        {
+            "move": "Frustration",
+            "tm": "TM21",
+            "variations": [
+                "Vulpix"
+            ]
+        },
+        {
+            "move": "Return",
+            "tm": "TM27",
+            "variations": [
+                "Vulpix"
+            ]
+        },
+        {
+            "move": "Double Team",
+            "tm": "TM32",
+            "variations": [
+                "Vulpix"
+            ]
+        },
+        {
+            "move": "Flamethrower",
+            "tm": "TM35",
+            "variations": [
+                "Vulpix"
+            ]
+        },
+        {
+            "move": "Fire Blast",
+            "tm": "TM38",
+            "variations": [
+                "Vulpix"
+            ]
+        },
+        {
+            "move": "Facade",
+            "tm": "TM42",
+            "variations": [
+                "Vulpix"
+            ]
+        },
+        {
+            "move": "Flame Charge",
+            "tm": "TM43",
+            "variations": [
+                "Vulpix"
+            ]
+        },
+        {
+            "move": "Rest",
+            "tm": "TM44",
+            "variations": [
+                "Vulpix"
+            ]
+        },
+        {
+            "move": "Attract",
+            "tm": "TM45",
+            "variations": [
+                "Vulpix"
+            ]
+        },
+        {
+            "move": "Round",
+            "tm": "TM48",
+            "variations": [
+                "Vulpix"
+            ]
+        },
+        {
+            "move": "Overheat",
+            "tm": "TM50",
+            "variations": [
+                "Vulpix"
+            ]
+        },
+        {
+            "move": "Energy Ball",
+            "tm": "TM53",
+            "variations": [
+                "Vulpix"
+            ]
+        },
+        {
+            "move": "Will-O-Wisp",
+            "tm": "TM61",
+            "variations": [
+                "Vulpix"
+            ]
+        },
+        {
+            "move": "Payback",
+            "tm": "TM66",
+            "variations": [
+                "Vulpix"
+            ]
+        },
+        {
+            "move": "Psych Up",
+            "tm": "TM77",
+            "variations": [
+                "Vulpix"
+            ]
+        },
+        {
+            "move": "Swagger",
+            "tm": "TM87",
+            "variations": [
+                "Vulpix"
+            ]
+        },
+        {
+            "move": "Sleep Talk",
+            "tm": "TM88",
+            "variations": [
+                "Vulpix"
+            ]
+        },
+        {
+            "move": "Substitute",
+            "tm": "TM90",
+            "variations": [
+                "Vulpix"
+            ]
+        },
+        {
+            "move": "Dark Pulse",
+            "tm": "TM97",
+            "variations": [
+                "Vulpix"
+            ]
+        },
+        {
+            "move": "Confide",
+            "tm": "TM100",
+            "variations": [
+                "Vulpix"
+            ]
+        }
+    ]
+}

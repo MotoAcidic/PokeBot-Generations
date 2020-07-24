@@ -1,0 +1,288 @@
+{
+    "name": "Squirtle",
+    "national_id": 7,
+    "types": [
+        "Water"
+    ],
+    "abilities": [
+        {
+            "name": "Torrent"
+        },
+        {
+            "name": "Rain Dish",
+            "hidden": true
+        }
+    ],
+    "catch_rate": 45,
+    "gender_ratios": {
+        "male": 87.5,
+        "female": 12.5
+    },
+    "egg_groups": [
+        "Monster",
+        "Water 1"
+    ],
+    "hatch_time": [
+        5355,
+        5609
+    ],
+    "height_us": "1'08\"",
+    "height_eu": "0.5 m",
+    "weight_us": "19.8 lbs.",
+    "weight_eu": "9.0 kg",
+    "base_exp_yield": 63,
+    "leveling_rate": "Medium Slow",
+    "base_friendship": 70,
+    "ev_yield": {
+        "hp": 0,
+        "atk": 0,
+        "def": 1,
+        "sp_atk": 0,
+        "sp_def": 0,
+        "speed": 0
+    },
+    "base_stats": {
+        "hp": 44,
+        "atk": 48,
+        "def": 65,
+        "sp_atk": 50,
+        "sp_def": 64,
+        "speed": 43
+    },
+    "evolution_from": null,
+    "evolutions": [
+        {
+            "to": "Wartortle",
+            "level": 16
+        }
+    ],
+    "species": "Tiny Turtle Pokémon",
+    "mega_evolves": false,
+    "pokedex_entry": "Squirtle's shell is not merely used for protection. The shell's rounded shape and the grooves on its surface help minimize resistance in water, enabling this Pokémon to swim at high speeds.",
+    "move_learnset": [
+        {
+            "move": "Tackle",
+            "level": 1
+        },
+        {
+            "move": "Tail Whip",
+            "level": 4
+        },
+        {
+            "move": "Water Gun",
+            "level": 7
+        },
+        {
+            "move": "Withdraw",
+            "level": 10
+        },
+        {
+            "move": "Bubble",
+            "level": 13
+        },
+        {
+            "move": "Bite",
+            "level": 16
+        },
+        {
+            "move": "Rapid Spin",
+            "level": 19
+        },
+        {
+            "move": "Protect",
+            "level": 22
+        },
+        {
+            "move": "Water Pulse",
+            "level": 25
+        },
+        {
+            "move": "Aqua Tail",
+            "level": 28
+        },
+        {
+            "move": "Skull Bash",
+            "level": 31
+        },
+        {
+            "move": "Iron Defense",
+            "level": 34
+        },
+        {
+            "move": "Rain Dance",
+            "level": 37
+        },
+        {
+            "move": "Hydro Pump",
+            "level": 40
+        },
+        {
+            "move": "Aqua Jet",
+            "egg_move": true
+        },
+        {
+            "move": "Aqua Ring",
+            "egg_move": true
+        },
+        {
+            "move": "Aura Sphere",
+            "egg_move": true
+        },
+        {
+            "move": "Brine",
+            "egg_move": true
+        },
+        {
+            "move": "Dragon Pulse",
+            "egg_move": true
+        },
+        {
+            "move": "Fake Out",
+            "egg_move": true
+        },
+        {
+            "move": "Flail",
+            "egg_move": true
+        },
+        {
+            "move": "Foresight",
+            "egg_move": true
+        },
+        {
+            "move": "Haze",
+            "egg_move": true
+        },
+        {
+            "move": "Mirror Coat",
+            "egg_move": true
+        },
+        {
+            "move": "Mist",
+            "egg_move": true
+        },
+        {
+            "move": "Mud Sport",
+            "egg_move": true
+        },
+        {
+            "move": "Muddy Water",
+            "egg_move": true
+        },
+        {
+            "move": "Refresh",
+            "egg_move": true
+        },
+        {
+            "move": "Water Spout",
+            "egg_move": true
+        },
+        {
+            "move": "Yawn",
+            "egg_move": true
+        },
+        {
+            "move": "Work Up",
+            "tm": "TM1"
+        },
+        {
+            "move": "Toxic",
+            "tm": "TM6"
+        },
+        {
+            "move": "Hail",
+            "tm": "TM7"
+        },
+        {
+            "move": "Hidden Power",
+            "tm": "TM10"
+        },
+        {
+            "move": "Ice Beam",
+            "tm": "TM13"
+        },
+        {
+            "move": "Blizzard",
+            "tm": "TM14"
+        },
+        {
+            "move": "Protect",
+            "tm": "TM17"
+        },
+        {
+            "move": "Rain Dance",
+            "tm": "TM18"
+        },
+        {
+            "move": "Frustration",
+            "tm": "TM21"
+        },
+        {
+            "move": "Return",
+            "tm": "TM27"
+        },
+        {
+            "move": "Brick Break",
+            "tm": "TM31"
+        },
+        {
+            "move": "Double Team",
+            "tm": "TM32"
+        },
+        {
+            "move": "Rock Tomb",
+            "tm": "TM39"
+        },
+        {
+            "move": "Facade",
+            "tm": "TM42"
+        },
+        {
+            "move": "Rest",
+            "tm": "TM44"
+        },
+        {
+            "move": "Attract",
+            "tm": "TM45"
+        },
+        {
+            "move": "Round",
+            "tm": "TM48"
+        },
+        {
+            "move": "Scald",
+            "tm": "TM55"
+        },
+        {
+            "move": "Fling",
+            "tm": "TM56"
+        },
+        {
+            "move": "Gyro Ball",
+            "tm": "TM74"
+        },
+        {
+            "move": "Swagger",
+            "tm": "TM87"
+        },
+        {
+            "move": "Sleep Talk",
+            "tm": "TM88"
+        },
+        {
+            "move": "Substitute",
+            "tm": "TM90"
+        },
+        {
+            "move": "Surf",
+            "tm": "TM94"
+        },
+        {
+            "move": "Waterfall",
+            "tm": "TM98"
+        },
+        {
+            "move": "Confide",
+            "tm": "TM100"
+        }
+    ]
+}

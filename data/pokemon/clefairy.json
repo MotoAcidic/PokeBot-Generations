@@ -1,0 +1,380 @@
+{
+    "name": "Clefairy",
+    "national_id": 35,
+    "types": [
+        "Fairy"
+    ],
+    "items": [
+        {
+            "name": "Moon Stone",
+            "chance": 5
+        }
+    ],
+    "abilities": [
+        {
+            "name": "Cute Charm"
+        },
+        {
+            "name": "Magic Guard"
+        },
+        {
+            "name": "Friend Guard",
+            "hidden": true
+        }
+    ],
+    "catch_rate": 150,
+    "gender_ratios": {
+        "male": 25,
+        "female": 75
+    },
+    "egg_groups": [
+        "Fairy"
+    ],
+    "hatch_time": [
+        5355,
+        5609
+    ],
+    "height_us": "2'00\"",
+    "height_eu": "0.6 m",
+    "weight_us": "16.5 lbs.",
+    "weight_eu": "7.5 kg",
+    "base_exp_yield": 113,
+    "leveling_rate": "Fast",
+    "base_friendship": 140,
+    "ev_yield": {
+        "hp": 2,
+        "atk": 0,
+        "def": 0,
+        "sp_atk": 0,
+        "sp_def": 0,
+        "speed": 0
+    },
+    "base_stats": {
+        "hp": 70,
+        "atk": 45,
+        "def": 48,
+        "sp_atk": 60,
+        "sp_def": 65,
+        "speed": 35
+    },
+    "evolution_from": "Cleffa",
+    "evolutions": [
+        {
+            "to": "Clefable",
+            "item": "Moon Stone"
+        }
+    ],
+    "species": "Fairy Pokémon",
+    "mega_evolves": false,
+    "pokedex_entry": "On every night of a full moon, groups of this Pokémon come out to play. When dawn arrives, the tired Clefairy return to their quiet mountain retreats and go to sleep nestled up against each other.",
+    "move_learnset": [
+        {
+            "move": "Disarming Voice",
+            "level": 1
+        },
+        {
+            "move": "Encore",
+            "level": 1
+        },
+        {
+            "move": "Growl",
+            "level": 1
+        },
+        {
+            "move": "Pound",
+            "level": 1
+        },
+        {
+            "move": "Spotlight",
+            "level": 1
+        },
+        {
+            "move": "Sing",
+            "level": 7
+        },
+        {
+            "move": "Double Slap",
+            "level": 10
+        },
+        {
+            "move": "Defense Curl",
+            "level": 13
+        },
+        {
+            "move": "Follow Me",
+            "level": 16
+        },
+        {
+            "move": "Bestow",
+            "level": 19
+        },
+        {
+            "move": "Wake-Up Slap",
+            "level": 22
+        },
+        {
+            "move": "Minimize",
+            "level": 25
+        },
+        {
+            "move": "Stored Power",
+            "level": 28
+        },
+        {
+            "move": "Metronome",
+            "level": 31
+        },
+        {
+            "move": "Cosmic Power",
+            "level": 34
+        },
+        {
+            "move": "Lucky Chant",
+            "level": 37
+        },
+        {
+            "move": "Body Slam",
+            "level": 40
+        },
+        {
+            "move": "Moonlight",
+            "level": 43
+        },
+        {
+            "move": "Moonblast",
+            "level": 46
+        },
+        {
+            "move": "Gravity",
+            "level": 49
+        },
+        {
+            "move": "Meteor Mash",
+            "level": 50
+        },
+        {
+            "move": "Healing Wish",
+            "level": 55
+        },
+        {
+            "move": "After You",
+            "level": 58
+        },
+        {
+            "move": "Amnesia",
+            "egg_move": true
+        },
+        {
+            "move": "Aromatherapy",
+            "egg_move": true
+        },
+        {
+            "move": "Belly Drum",
+            "egg_move": true
+        },
+        {
+            "move": "Covet",
+            "egg_move": true
+        },
+        {
+            "move": "Fake Tears",
+            "egg_move": true
+        },
+        {
+            "move": "Heal Pulse",
+            "egg_move": true
+        },
+        {
+            "move": "Metronome",
+            "egg_move": true
+        },
+        {
+            "move": "Mimic",
+            "egg_move": true
+        },
+        {
+            "move": "Misty Terrain",
+            "egg_move": true
+        },
+        {
+            "move": "Present",
+            "egg_move": true
+        },
+        {
+            "move": "Splash",
+            "egg_move": true
+        },
+        {
+            "move": "Stored Power",
+            "egg_move": true
+        },
+        {
+            "move": "Tickle",
+            "egg_move": true
+        },
+        {
+            "move": "Wish",
+            "egg_move": true
+        },
+        {
+            "move": "Work Up",
+            "tm": "TM1"
+        },
+        {
+            "move": "Psyshock",
+            "tm": "TM3"
+        },
+        {
+            "move": "Calm Mind",
+            "tm": "TM4"
+        },
+        {
+            "move": "Toxic",
+            "tm": "TM6"
+        },
+        {
+            "move": "Hidden Power",
+            "tm": "TM10"
+        },
+        {
+            "move": "Sunny Day",
+            "tm": "TM11"
+        },
+        {
+            "move": "Ice Beam",
+            "tm": "TM13"
+        },
+        {
+            "move": "Blizzard",
+            "tm": "TM14"
+        },
+        {
+            "move": "Light Screen",
+            "tm": "TM16"
+        },
+        {
+            "move": "Protect",
+            "tm": "TM17"
+        },
+        {
+            "move": "Rain Dance",
+            "tm": "TM18"
+        },
+        {
+            "move": "Safeguard",
+            "tm": "TM20"
+        },
+        {
+            "move": "Frustration",
+            "tm": "TM21"
+        },
+        {
+            "move": "Solar Beam",
+            "tm": "TM22"
+        },
+        {
+            "move": "Thunderbolt",
+            "tm": "TM24"
+        },
+        {
+            "move": "Thunder",
+            "tm": "TM25"
+        },
+        {
+            "move": "Return",
+            "tm": "TM27"
+        },
+        {
+            "move": "Psychic",
+            "tm": "TM29"
+        },
+        {
+            "move": "Shadow Ball",
+            "tm": "TM30"
+        },
+        {
+            "move": "Brick Break",
+            "tm": "TM31"
+        },
+        {
+            "move": "Double Team",
+            "tm": "TM32"
+        },
+        {
+            "move": "Reflect",
+            "tm": "TM33"
+        },
+        {
+            "move": "Flamethrower",
+            "tm": "TM35"
+        },
+        {
+            "move": "Fire Blast",
+            "tm": "TM38"
+        },
+        {
+            "move": "Facade",
+            "tm": "TM42"
+        },
+        {
+            "move": "Rest",
+            "tm": "TM44"
+        },
+        {
+            "move": "Attract",
+            "tm": "TM45"
+        },
+        {
+            "move": "Round",
+            "tm": "TM48"
+        },
+        {
+            "move": "Echoed Voice",
+            "tm": "TM49"
+        },
+        {
+            "move": "Fling",
+            "tm": "TM56"
+        },
+        {
+            "move": "Charge Beam",
+            "tm": "TM57"
+        },
+        {
+            "move": "Thunder Wave",
+            "tm": "TM73"
+        },
+        {
+            "move": "Psych Up",
+            "tm": "TM77"
+        },
+        {
+            "move": "Dream Eater",
+            "tm": "TM85"
+        },
+        {
+            "move": "Grass Knot",
+            "tm": "TM86"
+        },
+        {
+            "move": "Swagger",
+            "tm": "TM87"
+        },
+        {
+            "move": "Sleep Talk",
+            "tm": "TM88"
+        },
+        {
+            "move": "Substitute",
+            "tm": "TM90"
+        },
+        {
+            "move": "Dazzling Gleam",
+            "tm": "TM99"
+        },
+        {
+            "move": "Confide",
+            "tm": "TM100"
+        }
+    ]
+}

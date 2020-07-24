@@ -1,0 +1,261 @@
+{
+    "name": "Butterfree",
+    "national_id": 12,
+    "types": [
+        "Bug",
+        "Flying"
+    ],
+    "items": [
+        {
+            "name": "Silver Powder",
+            "chance": 5
+        }
+    ],
+    "abilities": [
+        {
+            "name": "Compound Eyes"
+        },
+        {
+            "name": "Tinted Lens",
+            "hidden": true
+        }
+    ],
+    "catch_rate": 45,
+    "gender_ratios": {
+        "male": 50,
+        "female": 50
+    },
+    "egg_groups": [
+        "Bug"
+    ],
+    "hatch_time": [
+        2805,
+        3059
+    ],
+    "height_us": "3'07\"",
+    "height_eu": "1.1 m",
+    "weight_us": "70.5 lbs.",
+    "weight_eu": "32.0 kg",
+    "base_exp_yield": 173,
+    "leveling_rate": "Medium Fast",
+    "base_friendship": 70,
+    "ev_yield": {
+        "hp": 0,
+        "atk": 0,
+        "def": 0,
+        "sp_atk": 2,
+        "sp_def": 1,
+        "speed": 0
+    },
+    "base_stats": {
+        "hp": 60,
+        "atk": 45,
+        "def": 50,
+        "sp_atk": 80,
+        "sp_def": 80,
+        "speed": 70
+    },
+    "evolution_from": "Metapod",
+    "evolutions": [],
+    "species": "Butterfly Pokémon",
+    "mega_evolves": false,
+    "pokedex_entry": "Butterfree has a superior ability to search for delicious honey from flowers. It can even search out, extract, and carry honey from flowers that are blooming over six miles from its nest.",
+    "move_learnset": [
+        {
+            "move": "Confusion",
+            "level": 1
+        },
+        {
+            "move": "Gust",
+            "level": 1
+        },
+        {
+            "move": "Confusion",
+            "level": 11
+        },
+        {
+            "move": "Poison Powder",
+            "level": 13
+        },
+        {
+            "move": "Sleep Powder",
+            "level": 13
+        },
+        {
+            "move": "Stun Spore",
+            "level": 13
+        },
+        {
+            "move": "Psybeam",
+            "level": 17
+        },
+        {
+            "move": "Silver Wind",
+            "level": 19
+        },
+        {
+            "move": "Supersonic",
+            "level": 23
+        },
+        {
+            "move": "Safeguard",
+            "level": 25
+        },
+        {
+            "move": "Whirlwind",
+            "level": 29
+        },
+        {
+            "move": "Bug Buzz",
+            "level": 31
+        },
+        {
+            "move": "Rage Powder",
+            "level": 35
+        },
+        {
+            "move": "Captivate",
+            "level": 37
+        },
+        {
+            "move": "Tailwind",
+            "level": 41
+        },
+        {
+            "move": "Air Slash",
+            "level": 43
+        },
+        {
+            "move": "Quiver Dance",
+            "level": 47
+        },
+        {
+            "move": "Toxic",
+            "tm": "TM6"
+        },
+        {
+            "move": "Venoshock",
+            "tm": "TM9"
+        },
+        {
+            "move": "Hidden Power",
+            "tm": "TM10"
+        },
+        {
+            "move": "Sunny Day",
+            "tm": "TM11"
+        },
+        {
+            "move": "Hyper Beam",
+            "tm": "TM15"
+        },
+        {
+            "move": "Protect",
+            "tm": "TM17"
+        },
+        {
+            "move": "Rain Dance",
+            "tm": "TM18"
+        },
+        {
+            "move": "Roost",
+            "tm": "TM19"
+        },
+        {
+            "move": "Safeguard",
+            "tm": "TM20"
+        },
+        {
+            "move": "Frustration",
+            "tm": "TM21"
+        },
+        {
+            "move": "Solar Beam",
+            "tm": "TM22"
+        },
+        {
+            "move": "Return",
+            "tm": "TM27"
+        },
+        {
+            "move": "Psychic",
+            "tm": "TM29"
+        },
+        {
+            "move": "Shadow Ball",
+            "tm": "TM30"
+        },
+        {
+            "move": "Double Team",
+            "tm": "TM32"
+        },
+        {
+            "move": "Aerial Ace",
+            "tm": "TM40"
+        },
+        {
+            "move": "Facade",
+            "tm": "TM42"
+        },
+        {
+            "move": "Rest",
+            "tm": "TM44"
+        },
+        {
+            "move": "Attract",
+            "tm": "TM45"
+        },
+        {
+            "move": "Thief",
+            "tm": "TM46"
+        },
+        {
+            "move": "Round",
+            "tm": "TM48"
+        },
+        {
+            "move": "Energy Ball",
+            "tm": "TM53"
+        },
+        {
+            "move": "Acrobatics",
+            "tm": "TM62"
+        },
+        {
+            "move": "Giga Impact",
+            "tm": "TM68"
+        },
+        {
+            "move": "Psych Up",
+            "tm": "TM77"
+        },
+        {
+            "move": "Infestation",
+            "tm": "TM83"
+        },
+        {
+            "move": "Dream Eater",
+            "tm": "TM85"
+        },
+        {
+            "move": "Swagger",
+            "tm": "TM87"
+        },
+        {
+            "move": "Sleep Talk",
+            "tm": "TM88"
+        },
+        {
+            "move": "U-turn",
+            "tm": "TM89"
+        },
+        {
+            "move": "Substitute",
+            "tm": "TM90"
+        },
+        {
+            "move": "Confide",
+            "tm": "TM100"
+        }
+    ]
+}

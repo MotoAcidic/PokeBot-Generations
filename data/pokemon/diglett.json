@@ -1,0 +1,436 @@
+{
+    "name": "Diglett",
+    "national_id": 50,
+    "types": [
+        "Ground"
+    ],
+    "items": [
+        {
+            "name": "Soft Sand",
+            "chance": 5
+        }
+    ],
+    "abilities": [
+        {
+            "name": "Sand Veil"
+        },
+        {
+            "name": "Arena Trap"
+        },
+        {
+            "name": "Sand Force",
+            "hidden": true
+        }
+    ],
+    "catch_rate": 255,
+    "gender_ratios": {
+        "male": 50,
+        "female": 50
+    },
+    "egg_groups": [
+        "Field"
+    ],
+    "hatch_time": [
+        5355,
+        5609
+    ],
+    "height_us": "0'08\"",
+    "height_eu": "0.2 m",
+    "weight_us": "1.8 lbs.",
+    "weight_eu": "0.8 kg",
+    "base_exp_yield": 53,
+    "leveling_rate": "Medium Fast",
+    "base_friendship": 70,
+    "ev_yield": {
+        "hp": 0,
+        "atk": 0,
+        "def": 0,
+        "sp_atk": 0,
+        "sp_def": 0,
+        "speed": 1
+    },
+    "base_stats": {
+        "hp": 10,
+        "atk": 55,
+        "def": 25,
+        "sp_atk": 35,
+        "sp_def": 45,
+        "speed": 95
+    },
+    "evolution_from": null,
+    "evolutions": [
+        {
+            "to": "Dugtrio",
+            "level": 26
+        }
+    ],
+    "species": "Mole Pokémon",
+    "mega_evolves": false,
+    "pokedex_entry": "Diglett are raised in most farms. The reason is simple—wherever this Pokémon burrows, the soil is left perfectly tilled for planting crops. This soil is made ideal for growing delicious vegetables.",
+    "move_learnset": [
+        {
+            "move": "Sand Attack",
+            "level": 1,
+            "variations": [
+                "Diglett"
+            ]
+        },
+        {
+            "move": "Scratch",
+            "level": 1,
+            "variations": [
+                "Diglett"
+            ]
+        },
+        {
+            "move": "Growl",
+            "level": 4,
+            "variations": [
+                "Diglett"
+            ]
+        },
+        {
+            "move": "Astonish",
+            "level": 7,
+            "variations": [
+                "Diglett"
+            ]
+        },
+        {
+            "move": "Mud-Slap",
+            "level": 10,
+            "variations": [
+                "Diglett"
+            ]
+        },
+        {
+            "move": "Magnitude",
+            "level": 14,
+            "variations": [
+                "Diglett"
+            ]
+        },
+        {
+            "move": "Bulldoze",
+            "level": 18,
+            "variations": [
+                "Diglett"
+            ]
+        },
+        {
+            "move": "Sucker Punch",
+            "level": 22,
+            "variations": [
+                "Diglett"
+            ]
+        },
+        {
+            "move": "Mud Bomb",
+            "level": 25,
+            "variations": [
+                "Diglett"
+            ]
+        },
+        {
+            "move": "Earth Power",
+            "level": 28,
+            "variations": [
+                "Diglett"
+            ]
+        },
+        {
+            "move": "Dig",
+            "level": 31,
+            "variations": [
+                "Diglett"
+            ]
+        },
+        {
+            "move": "Slash",
+            "level": 35,
+            "variations": [
+                "Diglett"
+            ]
+        },
+        {
+            "move": "Earthquake",
+            "level": 39,
+            "variations": [
+                "Diglett"
+            ]
+        },
+        {
+            "move": "Fissure",
+            "level": 43,
+            "variations": [
+                "Diglett"
+            ]
+        },
+        {
+            "move": "Ancient Power",
+            "egg_move": true,
+            "variations": [
+                "Diglett"
+            ]
+        },
+        {
+            "move": "Astonish",
+            "egg_move": true,
+            "variations": [
+                "Diglett"
+            ]
+        },
+        {
+            "move": "Beat Up",
+            "egg_move": true,
+            "variations": [
+                "Diglett"
+            ]
+        },
+        {
+            "move": "Endure",
+            "egg_move": true,
+            "variations": [
+                "Diglett"
+            ]
+        },
+        {
+            "move": "Feint Attack",
+            "egg_move": true,
+            "variations": [
+                "Diglett"
+            ]
+        },
+        {
+            "move": "Final Gambit",
+            "egg_move": true,
+            "variations": [
+                "Diglett"
+            ]
+        },
+        {
+            "move": "Headbutt",
+            "egg_move": true,
+            "variations": [
+                "Diglett"
+            ]
+        },
+        {
+            "move": "Memento",
+            "egg_move": true,
+            "variations": [
+                "Diglett"
+            ]
+        },
+        {
+            "move": "Mud Bomb",
+            "egg_move": true,
+            "variations": [
+                "Diglett"
+            ]
+        },
+        {
+            "move": "Pursuit",
+            "egg_move": true,
+            "variations": [
+                "Diglett"
+            ]
+        },
+        {
+            "move": "Reversal",
+            "egg_move": true,
+            "variations": [
+                "Diglett"
+            ]
+        },
+        {
+            "move": "Screech",
+            "egg_move": true,
+            "variations": [
+                "Diglett"
+            ]
+        },
+        {
+            "move": "Uproar",
+            "egg_move": true,
+            "variations": [
+                "Diglett"
+            ]
+        },
+        {
+            "move": "Toxic",
+            "tm": "TM6",
+            "variations": [
+                "Diglett"
+            ]
+        },
+        {
+            "move": "Hidden Power",
+            "tm": "TM10",
+            "variations": [
+                "Diglett"
+            ]
+        },
+        {
+            "move": "Sunny Day",
+            "tm": "TM11",
+            "variations": [
+                "Diglett"
+            ]
+        },
+        {
+            "move": "Protect",
+            "tm": "TM17",
+            "variations": [
+                "Diglett"
+            ]
+        },
+        {
+            "move": "Frustration",
+            "tm": "TM21",
+            "variations": [
+                "Diglett"
+            ]
+        },
+        {
+            "move": "Earthquake",
+            "tm": "TM26",
+            "variations": [
+                "Diglett"
+            ]
+        },
+        {
+            "move": "Return",
+            "tm": "TM27",
+            "variations": [
+                "Diglett"
+            ]
+        },
+        {
+            "move": "Double Team",
+            "tm": "TM32",
+            "variations": [
+                "Diglett"
+            ]
+        },
+        {
+            "move": "Sludge Bomb",
+            "tm": "TM36",
+            "variations": [
+                "Diglett"
+            ]
+        },
+        {
+            "move": "Sandstorm",
+            "tm": "TM37",
+            "variations": [
+                "Diglett"
+            ]
+        },
+        {
+            "move": "Rock Tomb",
+            "tm": "TM39",
+            "variations": [
+                "Diglett"
+            ]
+        },
+        {
+            "move": "Aerial Ace",
+            "tm": "TM40",
+            "variations": [
+                "Diglett"
+            ]
+        },
+        {
+            "move": "Facade",
+            "tm": "TM42",
+            "variations": [
+                "Diglett"
+            ]
+        },
+        {
+            "move": "Rest",
+            "tm": "TM44",
+            "variations": [
+                "Diglett"
+            ]
+        },
+        {
+            "move": "Attract",
+            "tm": "TM45",
+            "variations": [
+                "Diglett"
+            ]
+        },
+        {
+            "move": "Thief",
+            "tm": "TM46",
+            "variations": [
+                "Diglett"
+            ]
+        },
+        {
+            "move": "Round",
+            "tm": "TM48",
+            "variations": [
+                "Diglett"
+            ]
+        },
+        {
+            "move": "Echoed Voice",
+            "tm": "TM49",
+            "variations": [
+                "Diglett"
+            ]
+        },
+        {
+            "move": "Shadow Claw",
+            "tm": "TM65",
+            "variations": [
+                "Diglett"
+            ]
+        },
+        {
+            "move": "Bulldoze",
+            "tm": "TM78",
+            "variations": [
+                "Diglett"
+            ]
+        },
+        {
+            "move": "Rock Slide",
+            "tm": "TM80",
+            "variations": [
+                "Diglett"
+            ]
+        },
+        {
+            "move": "Swagger",
+            "tm": "TM87",
+            "variations": [
+                "Diglett"
+            ]
+        },
+        {
+            "move": "Sleep Talk",
+            "tm": "TM88",
+            "variations": [
+                "Diglett"
+            ]
+        },
+        {
+            "move": "Substitute",
+            "tm": "TM90",
+            "variations": [
+                "Diglett"
+            ]
+        },
+        {
+            "move": "Confide",
+            "tm": "TM100",
+            "variations": [
+                "Diglett"
+            ]
+        }
+    ]
+}

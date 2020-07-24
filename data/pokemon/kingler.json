@@ -1,0 +1,305 @@
+{
+    "name": "Kingler",
+    "national_id": 99,
+    "types": [
+        "Water"
+    ],
+    "abilities": [
+        {
+            "name": "Hyper Cutter"
+        },
+        {
+            "name": "Shell Armor"
+        },
+        {
+            "name": "Sheer Force",
+            "hidden": true
+        }
+    ],
+    "catch_rate": 60,
+    "gender_ratios": {
+        "male": 50,
+        "female": 50
+    },
+    "egg_groups": [
+        "Water 3"
+    ],
+    "hatch_time": [
+        5355,
+        5609
+    ],
+    "height_us": "4'03\"",
+    "height_eu": "1.3 m",
+    "weight_us": "132.3 lbs.",
+    "weight_eu": "60.0 kg",
+    "base_exp_yield": 166,
+    "leveling_rate": "Medium Fast",
+    "base_friendship": 70,
+    "ev_yield": {
+        "hp": 0,
+        "atk": 2,
+        "def": 0,
+        "sp_atk": 0,
+        "sp_def": 0,
+        "speed": 0
+    },
+    "base_stats": {
+        "hp": 55,
+        "atk": 130,
+        "def": 115,
+        "sp_atk": 50,
+        "sp_def": 50,
+        "speed": 75
+    },
+    "evolution_from": "Krabby",
+    "evolutions": [],
+    "species": "Pincer Pokémon",
+    "mega_evolves": false,
+    "pokedex_entry": "Kingler has an enormous, oversized claw. It waves this huge claw in the air to communicate with others. However, because the claw is so heavy, the Pokémon quickly tires.",
+    "move_learnset": [
+        {
+            "move": "Bubble",
+            "level": 1
+        },
+        {
+            "move": "Leer",
+            "level": 1
+        },
+        {
+            "move": "Mud Sport",
+            "level": 1
+        },
+        {
+            "move": "Vice Grip",
+            "level": 1
+        },
+        {
+            "move": "Wide Guard",
+            "level": 1
+        },
+        {
+            "move": "Vice Grip",
+            "level": 5
+        },
+        {
+            "move": "Leer",
+            "level": 9
+        },
+        {
+            "move": "Harden",
+            "level": 11
+        },
+        {
+            "move": "Bubble Beam",
+            "level": 15
+        },
+        {
+            "move": "Mud Shot",
+            "level": 19
+        },
+        {
+            "move": "Metal Claw",
+            "level": 21
+        },
+        {
+            "move": "Stomp",
+            "level": 25
+        },
+        {
+            "move": "Protect",
+            "level": 32
+        },
+        {
+            "move": "Guillotine",
+            "level": 37
+        },
+        {
+            "move": "Slam",
+            "level": 44
+        },
+        {
+            "move": "Brine",
+            "level": 51
+        },
+        {
+            "move": "Crabhammer",
+            "level": 56
+        },
+        {
+            "move": "Flail",
+            "level": 63
+        },
+        {
+            "move": "Agility",
+            "egg_move": true
+        },
+        {
+            "move": "Ally Switch",
+            "egg_move": true
+        },
+        {
+            "move": "Amnesia",
+            "egg_move": true
+        },
+        {
+            "move": "Ancient Power",
+            "egg_move": true
+        },
+        {
+            "move": "Bide",
+            "egg_move": true
+        },
+        {
+            "move": "Chip Away",
+            "egg_move": true
+        },
+        {
+            "move": "Endure",
+            "egg_move": true
+        },
+        {
+            "move": "Flail",
+            "egg_move": true
+        },
+        {
+            "move": "Haze",
+            "egg_move": true
+        },
+        {
+            "move": "Knock Off",
+            "egg_move": true
+        },
+        {
+            "move": "Slam",
+            "egg_move": true
+        },
+        {
+            "move": "Tickle",
+            "egg_move": true
+        },
+        {
+            "move": "Toxic",
+            "tm": "TM6"
+        },
+        {
+            "move": "Hail",
+            "tm": "TM7"
+        },
+        {
+            "move": "Hidden Power",
+            "tm": "TM10"
+        },
+        {
+            "move": "Ice Beam",
+            "tm": "TM13"
+        },
+        {
+            "move": "Blizzard",
+            "tm": "TM14"
+        },
+        {
+            "move": "Hyper Beam",
+            "tm": "TM15"
+        },
+        {
+            "move": "Protect",
+            "tm": "TM17"
+        },
+        {
+            "move": "Rain Dance",
+            "tm": "TM18"
+        },
+        {
+            "move": "Frustration",
+            "tm": "TM21"
+        },
+        {
+            "move": "Return",
+            "tm": "TM27"
+        },
+        {
+            "move": "Brick Break",
+            "tm": "TM31"
+        },
+        {
+            "move": "Double Team",
+            "tm": "TM32"
+        },
+        {
+            "move": "Rock Tomb",
+            "tm": "TM39"
+        },
+        {
+            "move": "Facade",
+            "tm": "TM42"
+        },
+        {
+            "move": "Rest",
+            "tm": "TM44"
+        },
+        {
+            "move": "Attract",
+            "tm": "TM45"
+        },
+        {
+            "move": "Thief",
+            "tm": "TM46"
+        },
+        {
+            "move": "Round",
+            "tm": "TM48"
+        },
+        {
+            "move": "False Swipe",
+            "tm": "TM54"
+        },
+        {
+            "move": "Scald",
+            "tm": "TM55"
+        },
+        {
+            "move": "Fling",
+            "tm": "TM56"
+        },
+        {
+            "move": "Quash",
+            "tm": "TM60"
+        },
+        {
+            "move": "Giga Impact",
+            "tm": "TM68"
+        },
+        {
+            "move": "Swords Dance",
+            "tm": "TM75"
+        },
+        {
+            "move": "Rock Slide",
+            "tm": "TM80"
+        },
+        {
+            "move": "X-Scissor",
+            "tm": "TM81"
+        },
+        {
+            "move": "Swagger",
+            "tm": "TM87"
+        },
+        {
+            "move": "Sleep Talk",
+            "tm": "TM88"
+        },
+        {
+            "move": "Substitute",
+            "tm": "TM90"
+        },
+        {
+            "move": "Surf",
+            "tm": "TM94"
+        },
+        {
+            "move": "Confide",
+            "tm": "TM100"
+        }
+    ]
+}

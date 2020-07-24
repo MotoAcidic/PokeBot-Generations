@@ -1,0 +1,286 @@
+{
+    "name": "Vaporeon",
+    "national_id": 134,
+    "types": [
+        "Water"
+    ],
+    "abilities": [
+        {
+            "name": "Water Absorb"
+        },
+        {
+            "name": "Hydration",
+            "hidden": true
+        }
+    ],
+    "catch_rate": 45,
+    "gender_ratios": {
+        "male": 87.5,
+        "female": 12.5
+    },
+    "egg_groups": [
+        "Field"
+    ],
+    "hatch_time": [
+        9180,
+        9434
+    ],
+    "height_us": "3'03\"",
+    "height_eu": "1.0 m",
+    "weight_us": "63.9 lbs.",
+    "weight_eu": "29.0 kg",
+    "base_exp_yield": 184,
+    "leveling_rate": "Medium Fast",
+    "base_friendship": 70,
+    "ev_yield": {
+        "hp": 2,
+        "atk": 0,
+        "def": 0,
+        "sp_atk": 0,
+        "sp_def": 0,
+        "speed": 0
+    },
+    "base_stats": {
+        "hp": 130,
+        "atk": 65,
+        "def": 60,
+        "sp_atk": 110,
+        "sp_def": 95,
+        "speed": 65
+    },
+    "evolution_from": "Eevee",
+    "evolutions": [],
+    "species": "Bubble Jet Pokémon",
+    "mega_evolves": false,
+    "pokedex_entry": "Vaporeon underwent a spontaneous mutation and grew fins and gills that allow it to live underwater. This Pokémon has the ability to freely control water.",
+    "move_learnset": [
+        {
+            "move": "Helping Hand",
+            "level": 1
+        },
+        {
+            "move": "Tackle",
+            "level": 1
+        },
+        {
+            "move": "Tail Whip",
+            "level": 1
+        },
+        {
+            "move": "Water Gun",
+            "level": 1
+        },
+        {
+            "move": "Sand Attack",
+            "level": 5
+        },
+        {
+            "move": "Baby-Doll Eyes",
+            "level": 9
+        },
+        {
+            "move": "Quick Attack",
+            "level": 13
+        },
+        {
+            "move": "Water Pulse",
+            "level": 17
+        },
+        {
+            "move": "Aurora Beam",
+            "level": 20
+        },
+        {
+            "move": "Aqua Ring",
+            "level": 25
+        },
+        {
+            "move": "Acid Armor",
+            "level": 29
+        },
+        {
+            "move": "Haze",
+            "level": 33
+        },
+        {
+            "move": "Muddy Water",
+            "level": 37
+        },
+        {
+            "move": "Last Resort",
+            "level": 41
+        },
+        {
+            "move": "Hydro Pump",
+            "level": 45
+        },
+        {
+            "move": "Captivate",
+            "egg_move": true
+        },
+        {
+            "move": "Charm",
+            "egg_move": true
+        },
+        {
+            "move": "Covet",
+            "egg_move": true
+        },
+        {
+            "move": "Curse",
+            "egg_move": true
+        },
+        {
+            "move": "Detect",
+            "egg_move": true
+        },
+        {
+            "move": "Endure",
+            "egg_move": true
+        },
+        {
+            "move": "Fake Tears",
+            "egg_move": true
+        },
+        {
+            "move": "Flail",
+            "egg_move": true
+        },
+        {
+            "move": "Natural Gift",
+            "egg_move": true
+        },
+        {
+            "move": "Stored Power",
+            "egg_move": true
+        },
+        {
+            "move": "Synchronoise",
+            "egg_move": true
+        },
+        {
+            "move": "Tickle",
+            "egg_move": true
+        },
+        {
+            "move": "Wish",
+            "egg_move": true
+        },
+        {
+            "move": "Yawn",
+            "egg_move": true
+        },
+        {
+            "move": "Work Up",
+            "tm": "TM1"
+        },
+        {
+            "move": "Roar",
+            "tm": "TM5"
+        },
+        {
+            "move": "Toxic",
+            "tm": "TM6"
+        },
+        {
+            "move": "Hail",
+            "tm": "TM7"
+        },
+        {
+            "move": "Hidden Power",
+            "tm": "TM10"
+        },
+        {
+            "move": "Sunny Day",
+            "tm": "TM11"
+        },
+        {
+            "move": "Ice Beam",
+            "tm": "TM13"
+        },
+        {
+            "move": "Blizzard",
+            "tm": "TM14"
+        },
+        {
+            "move": "Hyper Beam",
+            "tm": "TM15"
+        },
+        {
+            "move": "Protect",
+            "tm": "TM17"
+        },
+        {
+            "move": "Rain Dance",
+            "tm": "TM18"
+        },
+        {
+            "move": "Frustration",
+            "tm": "TM21"
+        },
+        {
+            "move": "Return",
+            "tm": "TM27"
+        },
+        {
+            "move": "Shadow Ball",
+            "tm": "TM30"
+        },
+        {
+            "move": "Double Team",
+            "tm": "TM32"
+        },
+        {
+            "move": "Facade",
+            "tm": "TM42"
+        },
+        {
+            "move": "Rest",
+            "tm": "TM44"
+        },
+        {
+            "move": "Attract",
+            "tm": "TM45"
+        },
+        {
+            "move": "Round",
+            "tm": "TM48"
+        },
+        {
+            "move": "Echoed Voice",
+            "tm": "TM49"
+        },
+        {
+            "move": "Scald",
+            "tm": "TM55"
+        },
+        {
+            "move": "Giga Impact",
+            "tm": "TM68"
+        },
+        {
+            "move": "Swagger",
+            "tm": "TM87"
+        },
+        {
+            "move": "Sleep Talk",
+            "tm": "TM88"
+        },
+        {
+            "move": "Substitute",
+            "tm": "TM90"
+        },
+        {
+            "move": "Surf",
+            "tm": "TM94"
+        },
+        {
+            "move": "Waterfall",
+            "tm": "TM98"
+        },
+        {
+            "move": "Confide",
+            "tm": "TM100"
+        }
+    ]
+}

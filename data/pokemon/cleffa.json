@@ -1,0 +1,284 @@
+{
+    "name": "Cleffa",
+    "national_id": 173,
+    "types": [
+        "Fairy"
+    ],
+    "items": [
+        {
+            "name": "Moon Stone",
+            "chance": 5
+        }
+    ],
+    "abilities": [
+        {
+            "name": "Cute Charm"
+        },
+        {
+            "name": "Magic Guard"
+        },
+        {
+            "name": "Friend Guard",
+            "hidden": true
+        }
+    ],
+    "catch_rate": 150,
+    "gender_ratios": {
+        "male": 25,
+        "female": 75
+    },
+    "egg_groups": [
+        "Undiscovered"
+    ],
+    "hatch_time": [
+        5355,
+        5609
+    ],
+    "height_us": "1'00\"",
+    "height_eu": "0.3 m",
+    "weight_us": "6.6 lbs.",
+    "weight_eu": "3.0 kg",
+    "base_exp_yield": 44,
+    "leveling_rate": "Fast",
+    "base_friendship": 140,
+    "ev_yield": {
+        "hp": 0,
+        "atk": 0,
+        "def": 0,
+        "sp_atk": 0,
+        "sp_def": 1,
+        "speed": 0
+    },
+    "base_stats": {
+        "hp": 50,
+        "atk": 25,
+        "def": 28,
+        "sp_atk": 45,
+        "sp_def": 55,
+        "speed": 15
+    },
+    "evolution_from": null,
+    "evolutions": [
+        {
+            "to": "Clefairy",
+            "happiness": true
+        }
+    ],
+    "species": "Star Shape Pokémon",
+    "mega_evolves": false,
+    "pokedex_entry": "On nights with many shooting stars, Cleffa can be seen dancing in a ring. They dance through the night and stop only at the break of day, when these Pokémon quench their thirst with the morning dew.",
+    "move_learnset": [
+        {
+            "move": "Charm",
+            "level": 1
+        },
+        {
+            "move": "Pound",
+            "level": 1
+        },
+        {
+            "move": "Encore",
+            "level": 4
+        },
+        {
+            "move": "Sing",
+            "level": 7
+        },
+        {
+            "move": "Sweet Kiss",
+            "level": 10
+        },
+        {
+            "move": "Copycat",
+            "level": 13
+        },
+        {
+            "move": "Magical Leaf",
+            "level": 16
+        },
+        {
+            "move": "Amnesia",
+            "egg_move": true
+        },
+        {
+            "move": "Aromatherapy",
+            "egg_move": true
+        },
+        {
+            "move": "Belly Drum",
+            "egg_move": true
+        },
+        {
+            "move": "Covet",
+            "egg_move": true
+        },
+        {
+            "move": "Fake Tears",
+            "egg_move": true
+        },
+        {
+            "move": "Heal Pulse",
+            "egg_move": true
+        },
+        {
+            "move": "Metronome",
+            "egg_move": true
+        },
+        {
+            "move": "Mimic",
+            "egg_move": true
+        },
+        {
+            "move": "Misty Terrain",
+            "egg_move": true
+        },
+        {
+            "move": "Present",
+            "egg_move": true
+        },
+        {
+            "move": "Splash",
+            "egg_move": true
+        },
+        {
+            "move": "Stored Power",
+            "egg_move": true
+        },
+        {
+            "move": "Tickle",
+            "egg_move": true
+        },
+        {
+            "move": "Wish",
+            "egg_move": true
+        },
+        {
+            "move": "Work Up",
+            "tm": "TM1"
+        },
+        {
+            "move": "Psyshock",
+            "tm": "TM3"
+        },
+        {
+            "move": "Toxic",
+            "tm": "TM6"
+        },
+        {
+            "move": "Hidden Power",
+            "tm": "TM10"
+        },
+        {
+            "move": "Sunny Day",
+            "tm": "TM11"
+        },
+        {
+            "move": "Light Screen",
+            "tm": "TM16"
+        },
+        {
+            "move": "Protect",
+            "tm": "TM17"
+        },
+        {
+            "move": "Rain Dance",
+            "tm": "TM18"
+        },
+        {
+            "move": "Safeguard",
+            "tm": "TM20"
+        },
+        {
+            "move": "Frustration",
+            "tm": "TM21"
+        },
+        {
+            "move": "Solar Beam",
+            "tm": "TM22"
+        },
+        {
+            "move": "Return",
+            "tm": "TM27"
+        },
+        {
+            "move": "Psychic",
+            "tm": "TM29"
+        },
+        {
+            "move": "Shadow Ball",
+            "tm": "TM30"
+        },
+        {
+            "move": "Double Team",
+            "tm": "TM32"
+        },
+        {
+            "move": "Reflect",
+            "tm": "TM33"
+        },
+        {
+            "move": "Flamethrower",
+            "tm": "TM35"
+        },
+        {
+            "move": "Fire Blast",
+            "tm": "TM38"
+        },
+        {
+            "move": "Facade",
+            "tm": "TM42"
+        },
+        {
+            "move": "Rest",
+            "tm": "TM44"
+        },
+        {
+            "move": "Attract",
+            "tm": "TM45"
+        },
+        {
+            "move": "Round",
+            "tm": "TM48"
+        },
+        {
+            "move": "Echoed Voice",
+            "tm": "TM49"
+        },
+        {
+            "move": "Fling",
+            "tm": "TM56"
+        },
+        {
+            "move": "Thunder Wave",
+            "tm": "TM73"
+        },
+        {
+            "move": "Psych Up",
+            "tm": "TM77"
+        },
+        {
+            "move": "Dream Eater",
+            "tm": "TM85"
+        },
+        {
+            "move": "Grass Knot",
+            "tm": "TM86"
+        },
+        {
+            "move": "Swagger",
+            "tm": "TM87"
+        },
+        {
+            "move": "Sleep Talk",
+            "tm": "TM88"
+        },
+        {
+            "move": "Substitute",
+            "tm": "TM90"
+        },
+        {
+            "move": "Confide",
+            "tm": "TM100"
+        }
+    ]
+}

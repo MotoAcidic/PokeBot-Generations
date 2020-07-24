@@ -15,20 +15,6 @@
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
-DROP TABLE IF EXISTS `guilds`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `guilds` (
-  `guild_id` varchar(40) NOT NULL,
-  `prefix` varchar(10) NOT NULL DEFAULT '#',
-  `last_message_sent` varchar(45) DEFAULT NULL,
-  `last_user` varchar(40) DEFAULT NULL,
-  `channel` varchar(45) NOT NULL COMMENT '																																																																																																																																																																																																																																																																																																																																																																													',
-  PRIMARY KEY (`guild_id`),
-  UNIQUE KEY `guild_id_UNIQUE` (`guild_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-/*!40101 SET character_set_client = @saved_cs_client */;
-
 --
 -- Table structure for table `daycare`
 --
@@ -51,6 +37,24 @@ CREATE TABLE `daycare` (
   CONSTRAINT `fk_daycare_1` FOREIGN KEY (`pokemon`) REFERENCES `pokemon` (`pokemon_id`) ON DELETE CASCADE ON UPDATE CASCADE,
   CONSTRAINT `fk_daycare_2` FOREIGN KEY (`trainer`) REFERENCES `user` (`user_id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB AUTO_INCREMENT=23 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `guilds`
+--
+
+DROP TABLE IF EXISTS `guilds`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `guilds` (
+  `guild_id` varchar(40) NOT NULL,
+  `prefix` varchar(10) NOT NULL DEFAULT '#',
+  `last_message_sent` varchar(45) DEFAULT NULL,
+  `last_user` varchar(40) DEFAULT NULL,
+  `channel` varchar(45) NOT NULL COMMENT '																																																																																																																																																																																																																																																																																																																																																																													',
+  PRIMARY KEY (`guild_id`),
+  UNIQUE KEY `guild_id_UNIQUE` (`guild_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -215,3 +219,5 @@ CREATE TABLE `user_prefs` (
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2019-06-11 17:21:17

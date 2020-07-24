@@ -1,0 +1,543 @@
+{
+    "name": "Persian",
+    "national_id": 53,
+    "types": [
+        "Normal"
+    ],
+    "items": [
+        {
+            "name": "Quick Claw",
+            "chance": 5
+        }
+    ],
+    "abilities": [
+        {
+            "name": "Limber"
+        },
+        {
+            "name": "Technician"
+        },
+        {
+            "name": "Unnerve",
+            "hidden": true
+        }
+    ],
+    "catch_rate": 90,
+    "gender_ratios": {
+        "male": 50,
+        "female": 50
+    },
+    "egg_groups": [
+        "Field"
+    ],
+    "hatch_time": [
+        5355,
+        5609
+    ],
+    "height_us": "3'03\"",
+    "height_eu": "1.0 m",
+    "weight_us": "70.5 lbs.",
+    "weight_eu": "32.0 kg",
+    "base_exp_yield": 154,
+    "leveling_rate": "Medium Fast",
+    "base_friendship": 70,
+    "ev_yield": {
+        "hp": 0,
+        "atk": 0,
+        "def": 0,
+        "sp_atk": 0,
+        "sp_def": 0,
+        "speed": 2
+    },
+    "base_stats": {
+        "hp": 65,
+        "atk": 70,
+        "def": 60,
+        "sp_atk": 65,
+        "sp_def": 65,
+        "speed": 115
+    },
+    "evolution_from": "Meowth",
+    "evolutions": [],
+    "species": "Classy Cat Pokémon",
+    "mega_evolves": false,
+    "pokedex_entry": "Persian has six bold whiskers that give it a look of toughness. The whiskers sense air movements to determine what is in the Pokémon's surrounding vicinity. It becomes docile if grabbed by the whiskers.",
+    "move_learnset": [
+        {
+            "move": "Bite",
+            "level": 1,
+            "variations": [
+                "Persian"
+            ]
+        },
+        {
+            "move": "Fake Out",
+            "level": 1,
+            "variations": [
+                "Persian"
+            ]
+        },
+        {
+            "move": "Growl",
+            "level": 1,
+            "variations": [
+                "Persian"
+            ]
+        },
+        {
+            "move": "Play Rough",
+            "level": 1,
+            "variations": [
+                "Persian"
+            ]
+        },
+        {
+            "move": "Scratch",
+            "level": 1,
+            "variations": [
+                "Persian"
+            ]
+        },
+        {
+            "move": "Swift",
+            "level": 1,
+            "variations": [
+                "Persian"
+            ]
+        },
+        {
+            "move": "Switcheroo",
+            "level": 1,
+            "variations": [
+                "Persian"
+            ]
+        },
+        {
+            "move": "Bite",
+            "level": 6,
+            "variations": [
+                "Persian"
+            ]
+        },
+        {
+            "move": "Fake Out",
+            "level": 9,
+            "variations": [
+                "Persian"
+            ]
+        },
+        {
+            "move": "Fury Swipes",
+            "level": 14,
+            "variations": [
+                "Persian"
+            ]
+        },
+        {
+            "move": "Screech",
+            "level": 17,
+            "variations": [
+                "Persian"
+            ]
+        },
+        {
+            "move": "Feint Attack",
+            "level": 22,
+            "variations": [
+                "Persian"
+            ]
+        },
+        {
+            "move": "Taunt",
+            "level": 25,
+            "variations": [
+                "Persian"
+            ]
+        },
+        {
+            "move": "Power Gem",
+            "level": 32,
+            "variations": [
+                "Persian"
+            ]
+        },
+        {
+            "move": "Slash",
+            "level": 37,
+            "variations": [
+                "Persian"
+            ]
+        },
+        {
+            "move": "Nasty Plot",
+            "level": 44,
+            "variations": [
+                "Persian"
+            ]
+        },
+        {
+            "move": "Assurance",
+            "level": 49,
+            "variations": [
+                "Persian"
+            ]
+        },
+        {
+            "move": "Captivate",
+            "level": 56,
+            "variations": [
+                "Persian"
+            ]
+        },
+        {
+            "move": "Night Slash",
+            "level": 61,
+            "variations": [
+                "Persian"
+            ]
+        },
+        {
+            "move": "Feint",
+            "level": 65,
+            "variations": [
+                "Persian"
+            ]
+        },
+        {
+            "move": "Amnesia",
+            "egg_move": true,
+            "variations": [
+                "Persian"
+            ]
+        },
+        {
+            "move": "Assist",
+            "egg_move": true,
+            "variations": [
+                "Persian"
+            ]
+        },
+        {
+            "move": "Charm",
+            "egg_move": true,
+            "variations": [
+                "Persian"
+            ]
+        },
+        {
+            "move": "Flail",
+            "egg_move": true,
+            "variations": [
+                "Persian"
+            ]
+        },
+        {
+            "move": "Foul Play",
+            "egg_move": true,
+            "variations": [
+                "Persian"
+            ]
+        },
+        {
+            "move": "Hypnosis",
+            "egg_move": true,
+            "variations": [
+                "Persian"
+            ]
+        },
+        {
+            "move": "Iron Tail",
+            "egg_move": true,
+            "variations": [
+                "Persian"
+            ]
+        },
+        {
+            "move": "Last Resort",
+            "egg_move": true,
+            "variations": [
+                "Persian"
+            ]
+        },
+        {
+            "move": "Odor Sleuth",
+            "egg_move": true,
+            "variations": [
+                "Persian"
+            ]
+        },
+        {
+            "move": "Punishment",
+            "egg_move": true,
+            "variations": [
+                "Persian"
+            ]
+        },
+        {
+            "move": "Snatch",
+            "egg_move": true,
+            "variations": [
+                "Persian"
+            ]
+        },
+        {
+            "move": "Spite",
+            "egg_move": true,
+            "variations": [
+                "Persian"
+            ]
+        },
+        {
+            "move": "Tail Whip",
+            "egg_move": true,
+            "variations": [
+                "Persian"
+            ]
+        },
+        {
+            "move": "Work Up",
+            "tm": "TM1",
+            "variations": [
+                "Persian"
+            ]
+        },
+        {
+            "move": "Roar",
+            "tm": "TM5",
+            "variations": [
+                "Persian"
+            ]
+        },
+        {
+            "move": "Toxic",
+            "tm": "TM6",
+            "variations": [
+                "Persian"
+            ]
+        },
+        {
+            "move": "Hidden Power",
+            "tm": "TM10",
+            "variations": [
+                "Persian"
+            ]
+        },
+        {
+            "move": "Sunny Day",
+            "tm": "TM11",
+            "variations": [
+                "Persian"
+            ]
+        },
+        {
+            "move": "Taunt",
+            "tm": "TM12",
+            "variations": [
+                "Persian"
+            ]
+        },
+        {
+            "move": "Hyper Beam",
+            "tm": "TM15",
+            "variations": [
+                "Persian"
+            ]
+        },
+        {
+            "move": "Protect",
+            "tm": "TM17",
+            "variations": [
+                "Persian"
+            ]
+        },
+        {
+            "move": "Rain Dance",
+            "tm": "TM18",
+            "variations": [
+                "Persian"
+            ]
+        },
+        {
+            "move": "Frustration",
+            "tm": "TM21",
+            "variations": [
+                "Persian"
+            ]
+        },
+        {
+            "move": "Thunderbolt",
+            "tm": "TM24",
+            "variations": [
+                "Persian"
+            ]
+        },
+        {
+            "move": "Thunder",
+            "tm": "TM25",
+            "variations": [
+                "Persian"
+            ]
+        },
+        {
+            "move": "Return",
+            "tm": "TM27",
+            "variations": [
+                "Persian"
+            ]
+        },
+        {
+            "move": "Shadow Ball",
+            "tm": "TM30",
+            "variations": [
+                "Persian"
+            ]
+        },
+        {
+            "move": "Double Team",
+            "tm": "TM32",
+            "variations": [
+                "Persian"
+            ]
+        },
+        {
+            "move": "Aerial Ace",
+            "tm": "TM40",
+            "variations": [
+                "Persian"
+            ]
+        },
+        {
+            "move": "Torment",
+            "tm": "TM41",
+            "variations": [
+                "Persian"
+            ]
+        },
+        {
+            "move": "Facade",
+            "tm": "TM42",
+            "variations": [
+                "Persian"
+            ]
+        },
+        {
+            "move": "Rest",
+            "tm": "TM44",
+            "variations": [
+                "Persian"
+            ]
+        },
+        {
+            "move": "Attract",
+            "tm": "TM45",
+            "variations": [
+                "Persian"
+            ]
+        },
+        {
+            "move": "Thief",
+            "tm": "TM46",
+            "variations": [
+                "Persian"
+            ]
+        },
+        {
+            "move": "Round",
+            "tm": "TM48",
+            "variations": [
+                "Persian"
+            ]
+        },
+        {
+            "move": "Echoed Voice",
+            "tm": "TM49",
+            "variations": [
+                "Persian"
+            ]
+        },
+        {
+            "move": "Embargo",
+            "tm": "TM63",
+            "variations": [
+                "Persian"
+            ]
+        },
+        {
+            "move": "Shadow Claw",
+            "tm": "TM65",
+            "variations": [
+                "Persian"
+            ]
+        },
+        {
+            "move": "Payback",
+            "tm": "TM66",
+            "variations": [
+                "Persian"
+            ]
+        },
+        {
+            "move": "Giga Impact",
+            "tm": "TM68",
+            "variations": [
+                "Persian"
+            ]
+        },
+        {
+            "move": "Psych Up",
+            "tm": "TM77",
+            "variations": [
+                "Persian"
+            ]
+        },
+        {
+            "move": "Dream Eater",
+            "tm": "TM85",
+            "variations": [
+                "Persian"
+            ]
+        },
+        {
+            "move": "Swagger",
+            "tm": "TM87",
+            "variations": [
+                "Persian"
+            ]
+        },
+        {
+            "move": "Sleep Talk",
+            "tm": "TM88",
+            "variations": [
+                "Persian"
+            ]
+        },
+        {
+            "move": "U-turn",
+            "tm": "TM89",
+            "variations": [
+                "Persian"
+            ]
+        },
+        {
+            "move": "Substitute",
+            "tm": "TM90",
+            "variations": [
+                "Persian"
+            ]
+        },
+        {
+            "move": "Dark Pulse",
+            "tm": "TM97",
+            "variations": [
+                "Persian"
+            ]
+        },
+        {
+            "move": "Confide",
+            "tm": "TM100",
+            "variations": [
+                "Persian"
+            ]
+        }
+    ]
+}

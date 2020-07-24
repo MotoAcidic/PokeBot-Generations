@@ -1,0 +1,355 @@
+{
+    "name": "Machamp",
+    "national_id": 68,
+    "types": [
+        "Fighting"
+    ],
+    "items": [
+        {
+            "name": "Focus Band",
+            "chance": 5
+        }
+    ],
+    "abilities": [
+        {
+            "name": "Guts"
+        },
+        {
+            "name": "No Guard"
+        },
+        {
+            "name": "Steadfast",
+            "hidden": true
+        }
+    ],
+    "catch_rate": 45,
+    "gender_ratios": {
+        "male": 75,
+        "female": 25
+    },
+    "egg_groups": [
+        "Human-Like"
+    ],
+    "hatch_time": [
+        5355,
+        5609
+    ],
+    "height_us": "5'03\"",
+    "height_eu": "1.6 m",
+    "weight_us": "286.6 lbs.",
+    "weight_eu": "130.0 kg",
+    "base_exp_yield": 227,
+    "leveling_rate": "Medium Slow",
+    "base_friendship": 70,
+    "ev_yield": {
+        "hp": 0,
+        "atk": 3,
+        "def": 0,
+        "sp_atk": 0,
+        "sp_def": 0,
+        "speed": 0
+    },
+    "base_stats": {
+        "hp": 90,
+        "atk": 130,
+        "def": 80,
+        "sp_atk": 65,
+        "sp_def": 85,
+        "speed": 55
+    },
+    "evolution_from": "Machoke",
+    "evolutions": [],
+    "species": "Superpower Pokémon",
+    "mega_evolves": false,
+    "pokedex_entry": "Machamp is known as the Pokémon that has mastered every kind of martial arts. If it grabs hold of the foe with its four arms, the battle is all but over. The hapless foe is thrown far over the horizon.",
+    "move_learnset": [
+        {
+            "move": "Focus Energy",
+            "level": 1
+        },
+        {
+            "move": "Karate Chop",
+            "level": 1
+        },
+        {
+            "move": "Leer",
+            "level": 1
+        },
+        {
+            "move": "Low Kick",
+            "level": 1
+        },
+        {
+            "move": "Strength",
+            "level": 1
+        },
+        {
+            "move": "Wide Guard",
+            "level": 1
+        },
+        {
+            "move": "Focus Energy",
+            "level": 3
+        },
+        {
+            "move": "Karate Chop",
+            "level": 7
+        },
+        {
+            "move": "Foresight",
+            "level": 9
+        },
+        {
+            "move": "Low Sweep",
+            "level": 13
+        },
+        {
+            "move": "Seismic Toss",
+            "level": 15
+        },
+        {
+            "move": "Revenge",
+            "level": 19
+        },
+        {
+            "move": "Knock Off",
+            "level": 21
+        },
+        {
+            "move": "Vital Throw",
+            "level": 25
+        },
+        {
+            "move": "Wake-Up Slap",
+            "level": 27
+        },
+        {
+            "move": "Dual Chop",
+            "level": 33
+        },
+        {
+            "move": "Submission",
+            "level": 37
+        },
+        {
+            "move": "Bulk Up",
+            "level": 43
+        },
+        {
+            "move": "Cross Chop",
+            "level": 47
+        },
+        {
+            "move": "Scary Face",
+            "level": 53
+        },
+        {
+            "move": "Dynamic Punch",
+            "level": 57
+        },
+        {
+            "move": "Bullet Punch",
+            "egg_move": true
+        },
+        {
+            "move": "Close Combat",
+            "egg_move": true
+        },
+        {
+            "move": "Counter",
+            "egg_move": true
+        },
+        {
+            "move": "Encore",
+            "egg_move": true
+        },
+        {
+            "move": "Fire Punch",
+            "egg_move": true
+        },
+        {
+            "move": "Heavy Slam",
+            "egg_move": true
+        },
+        {
+            "move": "Ice Punch",
+            "egg_move": true
+        },
+        {
+            "move": "Knock Off",
+            "egg_move": true
+        },
+        {
+            "move": "Meditate",
+            "egg_move": true
+        },
+        {
+            "move": "Power Trick",
+            "egg_move": true
+        },
+        {
+            "move": "Quick Guard",
+            "egg_move": true
+        },
+        {
+            "move": "Rolling Kick",
+            "egg_move": true
+        },
+        {
+            "move": "Smelling Salts",
+            "egg_move": true
+        },
+        {
+            "move": "Thunder Punch",
+            "egg_move": true
+        },
+        {
+            "move": "Tickle",
+            "egg_move": true
+        },
+        {
+            "move": "Work Up",
+            "tm": "TM1"
+        },
+        {
+            "move": "Toxic",
+            "tm": "TM6"
+        },
+        {
+            "move": "Bulk Up",
+            "tm": "TM8"
+        },
+        {
+            "move": "Hidden Power",
+            "tm": "TM10"
+        },
+        {
+            "move": "Sunny Day",
+            "tm": "TM11"
+        },
+        {
+            "move": "Hyper Beam",
+            "tm": "TM15"
+        },
+        {
+            "move": "Light Screen",
+            "tm": "TM16"
+        },
+        {
+            "move": "Protect",
+            "tm": "TM17"
+        },
+        {
+            "move": "Rain Dance",
+            "tm": "TM18"
+        },
+        {
+            "move": "Frustration",
+            "tm": "TM21"
+        },
+        {
+            "move": "Smack Down",
+            "tm": "TM23"
+        },
+        {
+            "move": "Earthquake",
+            "tm": "TM26"
+        },
+        {
+            "move": "Return",
+            "tm": "TM27"
+        },
+        {
+            "move": "Brick Break",
+            "tm": "TM31"
+        },
+        {
+            "move": "Double Team",
+            "tm": "TM32"
+        },
+        {
+            "move": "Flamethrower",
+            "tm": "TM35"
+        },
+        {
+            "move": "Fire Blast",
+            "tm": "TM38"
+        },
+        {
+            "move": "Rock Tomb",
+            "tm": "TM39"
+        },
+        {
+            "move": "Facade",
+            "tm": "TM42"
+        },
+        {
+            "move": "Rest",
+            "tm": "TM44"
+        },
+        {
+            "move": "Attract",
+            "tm": "TM45"
+        },
+        {
+            "move": "Thief",
+            "tm": "TM46"
+        },
+        {
+            "move": "Low Sweep",
+            "tm": "TM47"
+        },
+        {
+            "move": "Round",
+            "tm": "TM48"
+        },
+        {
+            "move": "Focus Blast",
+            "tm": "TM52"
+        },
+        {
+            "move": "Fling",
+            "tm": "TM56"
+        },
+        {
+            "move": "Payback",
+            "tm": "TM66"
+        },
+        {
+            "move": "Giga Impact",
+            "tm": "TM68"
+        },
+        {
+            "move": "Stone Edge",
+            "tm": "TM71"
+        },
+        {
+            "move": "Bulldoze",
+            "tm": "TM78"
+        },
+        {
+            "move": "Rock Slide",
+            "tm": "TM80"
+        },
+        {
+            "move": "Poison Jab",
+            "tm": "TM84"
+        },
+        {
+            "move": "Swagger",
+            "tm": "TM87"
+        },
+        {
+            "move": "Sleep Talk",
+            "tm": "TM88"
+        },
+        {
+            "move": "Substitute",
+            "tm": "TM90"
+        },
+        {
+            "move": "Confide",
+            "tm": "TM100"
+        }
+    ]
+}

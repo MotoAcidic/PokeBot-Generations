@@ -518,46 +518,6 @@
           ]
         },
         {
-          "pokemon": "Hoothoot",
-          "location": "Walking",
-          "min_level": 3,
-          "max_level": 5,
-          "rarity": "common",
-          "games": [
-            "HeartGold",
-            "SoulSilver"
-          ],
-          "day_times": [
-            "night"
-          ]
-        },
-        {
-          "pokemon": "Ledyba",
-          "location": "Walking",
-          "min_level": 3,
-          "max_level": 3,
-          "rarity": "common",
-          "games": [
-            "SoulSilver"
-          ],
-          "day_times": [
-            "morning"
-          ]
-        },
-        {
-          "pokemon": "Spinarak",
-          "location": "Walking",
-          "min_level": 3,
-          "max_level": 4,
-          "rarity": "common",
-          "games": [
-            "HeartGold"
-          ],
-          "day_times": [
-            "night"
-          ]
-        },
-        {
           "pokemon": "Metapod",
           "location": "Walking",
           "min_level": 5,
@@ -664,32 +624,6 @@
           ]
         },
         {
-          "pokemon": "Noctowl",
-          "location": "Walking",
-          "min_level": 7,
-          "max_level": 10,
-          "rarity": "uncommon",
-          "games": [
-            "HeartGold"
-          ],
-          "day_times": [
-            "night"
-          ]
-        },
-        {
-          "pokemon": "Noctowl",
-          "location": "Walking",
-          "min_level": 7,
-          "max_level": 7,
-          "rarity": "uncommon",
-          "games": [
-            "SoulSilver"
-          ],
-          "day_times": [
-            "night"
-          ]
-        },
-        {
           "pokemon": "Beedrill",
           "location": "Walking",
           "min_level": 10,
@@ -728,184 +662,6 @@
           ],
           "day_times": [
             "day"
-          ]
-        },
-        {
-          "pokemon": "Ledyba",
-          "location": "Walking",
-          "min_level": 10,
-          "max_level": 10,
-          "rarity": "rare",
-          "games": [
-            "SoulSilver"
-          ],
-          "day_times": [
-            "day"
-          ]
-        },
-        {
-          "pokemon": "Ledian",
-          "location": "Walking",
-          "min_level": 7,
-          "max_level": 10,
-          "rarity": "rare",
-          "games": [
-            "SoulSilver"
-          ],
-          "day_times": [
-            "morning"
-          ]
-        },
-        {
-          "pokemon": "Spinarak",
-          "location": "Walking",
-          "min_level": 10,
-          "max_level": 10,
-          "rarity": "rare",
-          "games": [
-            "HeartGold"
-          ],
-          "day_times": [
-            "morning"
-          ]
-        },
-        {
-          "pokemon": "Ariados",
-          "location": "Walking",
-          "min_level": 7,
-          "max_level": 7,
-          "rarity": "rare",
-          "games": [
-            "HeartGold"
-          ],
-          "day_times": [
-            "night"
-          ]
-        },
-        {
-          "pokemon": "Plusle",
-          "location": "Walking",
-          "min_level": 3,
-          "max_level": 3,
-          "rarity": "uncommon",
-          "games": [
-            "HeartGold",
-            "SoulSilver"
-          ],
-          "day_times": [
-            "morning",
-            "day",
-            "night"
-          ]
-        },
-        {
-          "pokemon": "Minun",
-          "location": "Walking",
-          "min_level": 5,
-          "max_level": 5,
-          "rarity": "uncommon",
-          "games": [
-            "HeartGold",
-            "SoulSilver"
-          ],
-          "day_times": [
-            "morning",
-            "day",
-            "night"
-          ]
-        },
-        {
-          "pokemon": "Shinx",
-          "location": "Walking",
-          "min_level": 3,
-          "max_level": 5,
-          "rarity": "common",
-          "games": [
-            "HeartGold",
-            "SoulSilver"
-          ],
-          "day_times": [
-            "morning",
-            "day",
-            "night"
-          ]
-        },
-        {
-          "pokemon": "Hoothoot",
-          "location": "Headbutt",
-          "min_level": 2,
-          "max_level": 19,
-          "rarity": "limited",
-          "games": [
-            "HeartGold",
-            "SoulSilver"
-          ],
-          "day_times": [
-            "morning",
-            "day",
-            "night"
-          ]
-        },
-        {
-          "pokemon": "Ledyba",
-          "location": "Headbutt",
-          "min_level": 3,
-          "max_level": 7,
-          "rarity": "limited",
-          "games": [
-            "SoulSilver"
-          ],
-          "day_times": [
-            "morning",
-            "day",
-            "night"
-          ]
-        },
-        {
-          "pokemon": "Spinarak",
-          "location": "Headbutt",
-          "min_level": 3,
-          "max_level": 7,
-          "rarity": "limited",
-          "games": [
-            "HeartGold"
-          ],
-          "day_times": [
-            "morning",
-            "day",
-            "night"
-          ]
-        },
-        {
-          "pokemon": "Pineco",
-          "location": "Headbutt",
-          "min_level": 2,
-          "max_level": 17,
-          "rarity": "limited",
-          "games": [
-            "HeartGold",
-            "SoulSilver"
-          ],
-          "day_times": [
-            "morning",
-            "day",
-            "night"
-          ]
-        },
-        {
-          "pokemon": "Wurmple",
-          "location": "Headbutt",
-          "min_level": 2,
-          "max_level": 10,
-          "rarity": "limited",
-          "games": [
-            "HeartGold",
-            "SoulSilver"
-          ],
-          "day_times": [
-            "morning",
-            "day",
-            "night"
           ]
         },
         {
@@ -1020,49 +776,6 @@
           ]
         },
         {
-          "pokemon": "Hoothoot",
-          "location": "Walking",
-          "min_level": 3,
-          "max_level": 5,
-          "rarity": "common",
-          "games": [
-            "Gold",
-            "Silver",
-            "Crystal"
-          ],
-          "day_times": [
-            "night"
-          ]
-        },
-        {
-          "pokemon": "Ledyba",
-          "location": "Walking",
-          "min_level": 3,
-          "max_level": 3,
-          "rarity": "common",
-          "games": [
-            "Silver",
-            "Crystal"
-          ],
-          "day_times": [
-            "morning"
-          ]
-        },
-        {
-          "pokemon": "Spinarak",
-          "location": "Walking",
-          "min_level": 3,
-          "max_level": 3,
-          "rarity": "common",
-          "games": [
-            "Gold",
-            "Crystal"
-          ],
-          "day_times": [
-            "night"
-          ]
-        },
-        {
           "pokemon": "Pidgey",
           "location": "Walking",
           "min_level": 3,
@@ -1132,21 +845,6 @@
           ]
         },
         {
-          "pokemon": "Noctowl",
-          "location": "Walking",
-          "min_level": 7,
-          "max_level": 7,
-          "rarity": "uncommon",
-          "games": [
-            "Gold",
-            "Silver",
-            "Crystal"
-          ],
-          "day_times": [
-            "night"
-          ]
-        },
-        {
           "pokemon": "Pidgey",
           "location": "Walking",
           "min_level": 5,
@@ -1190,20 +888,6 @@
             "morning",
             "day",
             "night"
-          ]
-        },
-        {
-          "pokemon": "Ledian",
-          "location": "Walking",
-          "min_level": 7,
-          "max_level": 7,
-          "rarity": "rare",
-          "games": [
-            "Silver",
-            "Crystal"
-          ],
-          "day_times": [
-            "morning"
           ]
         },
         {
